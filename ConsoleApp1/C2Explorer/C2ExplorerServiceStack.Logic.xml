@@ -1,0 +1,3165 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>C2ExplorerServiceStack.Logic</name>
+    </assembly>
+    <members>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.CommissionsExamples.Overall_Commissions_Paid_By_System">
+            <summary>
+            Overall_Commissions_Paid_By_System
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.CommissionsExamples.Commissions_By_Plan">
+            <summary>
+            Commissions_By_Plan_and_Instruments
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.CommissionsExamples.Commissions_By_Instruments">
+            <summary>
+            Commissions_By_Instruments
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.CommissionsExamples.Commissions_Data">
+            <summary>
+            Commissions_Data
+            </summary>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Examples.CorrelationExamples">
+            <exclude/>
+            <summary>
+            private
+            </summary>
+            <seealso cref="T:C2ExplorerServiceStack.Logic.Examples.Examples" />
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.CorrelationExamples.GetCorrelationTable">
+            <summary>
+            GetCorrelationTable
+            </summary>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Examples.Examples">
+            <summary>
+            Examples source codes
+            </summary>
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.Examples.HtmlFrame">
+            <summary>
+            The biggest trade profit in 2015.
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.Examples.MaxTrade">
+            <summary>
+            The biggest trade profit in 2015.
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.Examples.Reward_to_risk_and_Expectancy">
+            <summary>
+            Reward to risk and Expectancy for systems in 2015
+            </summary>
+            <remarks>http://www.learningmarkets.com/determining-expectancy-in-your-trading/</remarks>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:C2ExplorerServiceStack.Logic.Examples.Examples.Commissions_example" -->
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.Examples.DescriptiveStatistics">
+            <summary>
+            Descriptive Statistics.
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.Examples.Stats_sharpe_or_calmar">
+            <summary>
+            Stats_sharpe_or_calmar
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.Examples.SystemsPerInstrumentsCollumnChart">
+            <summary>
+            Show numbers of systems trading a different sets of instruments.
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.Examples.SystemsAndFees_ScatterChart">
+            <summary>
+            scatter chart.
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.Examples.Timeline_NoGroups">
+            <summary>
+            Timeline - no groups
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.Examples.Timeline_Outliers">
+            <summary>
+            Timeline - default groups
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.Examples.Timeline_Symbols">
+            <summary>
+            Timeline - by symbols
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.Examples.TimeSeriesChart_3eq_01">
+            <summary>
+            Timeseries chart - three equities.
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.Examples.TimeSeriesChart_ROC_01">
+            <summary>
+            TimeSeriesChart_ROC_01
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.Examples.BoxplotChart_TradesResults_01">
+            <summary>
+            TimeSeriesChart_ROC_01
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.Examples.TradesPerWeekDays_01">
+            <summary>
+            TradesPerWeekDays_01
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.Examples.SymbolsProfits">
+            <exclude/>
+            <summary>
+            Profit/loss per symbol
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.Examples.SymbolsTradesVolumes">
+            <exclude/>
+            <summary>
+            Traded volumes per symbols
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.Examples.TradesHistogram_Dollars">
+            <exclude/>
+            <summary>
+            Trades histogram - dollars
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.Examples.NoDayTradingSystems">
+            <exclude/>
+            <summary>
+            Systems not performed intradeay trades
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.Examples.SharpeVersusDaysSinceInception">
+            <exclude/>
+            <summary>
+            Sharpe versus days since inception ScatterChart.
+            </summary>
+            <see cref="!:https://forums.collective2.com/t/scatter-chart-in-explorer/8884"/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.TimeSheetExamples.TimeSheet_One_System_All_Data">
+            <summary>
+            TimeSheet_Equity_Profit_ROC_One_System_All_Data
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.TimeSheetExamples.TimeSheet_More_Systems">
+            <summary>
+            TimeSheet_Returns
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.TimeSheetExamples.TimeSheet_Chart_01">
+            <summary>
+            TimeSheet_Chart_01
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.TimeSheetExamples.Commissions_Plans_in_One_Chart">
+            <summary>
+            Commissions_Plans_in_One_Chart
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.TimeSheetExamples.TimeSheet_Average_of_Two">
+            <summary>
+            TimeSheet_Average_of_Two
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Examples.TimeSheetExamples.Portfolio_Optimize_Two">
+            <summary>
+            Portfolio of two - find optimal.
+            </summary>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.AccountEquityPoint">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.AccountEquityPoint.SystemId">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.AccountEquityPoint.DateTime">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.AccountEquityPoint.Value">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.AccountEquityPoint.#ctor">
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.C2Api.RetrieveMarginAnalysis">
+            <summary>
+            Command
+            </summary>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.C2Api.RetrieveMarginAnalysis.RetrieveMarginAnalysisRequest">
+            <summary>
+            Request
+            </summary>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.C2Api.RetrieveMarginAnalysis.RetrieveMarginAnalysisResponse_Internal">
+            <summary>
+            Internal response. Some fields need to be converted.
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2Api.RetrieveMarginAnalysis.#ctor(System.String,System.Int64)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="apikey"></param>
+            <param name="systemId"></param>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystemDataFactory.getCommissionsSeries(System.Int64,C2ExplorerServiceStack.Logic.Interfaces.TimeInterval,C2ExplorerServiceStack.Logic.Interfaces.ICommissions)">
+            <summary>
+            Gets the commissions series.
+            </summary>
+            <param name="systemId">The system identifier.</param>
+            <param name="timeInterval">The time interval.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystemDataFactory.GetSubscriptionFeesSeries(System.DateTime,System.DateTime,System.Decimal,System.Int64)">
+            <summary>
+            Gets the subscription fees series.
+            </summary>
+            <param name="systemStarted">The system started.</param>
+            <param name="equityLastDate">The equity last date.</param>
+            <param name="monthlyFees">The monthly fees.</param>
+            <param name="trialDays">The trial days.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2EquityChartFactory.GetSystemChart(System.Int64,C2ChartsLibrary.Interfaces.EquityChartType,C2ChartsLibrary.Enums.C2ExplorerThemeName,System.String,System.String)">
+            <summary>
+            Gets the system chart.
+            </summary>
+            <param name="c2SystemmID">The c2 systemm identifier.</param>
+            <param name="equityChartType">Type of the equity chart.</param>
+            <param name="themeName">Name of the theme.</param>
+            <param name="benchmarkSymbol">The benchmark symbol.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2PerlRewritten.c2iqfeed.findFutureRoot(System.String)">
+            <summary>
+            Finds the future root. Usable only for symbols having 2 years digits!
+            Original perl procedure works with Collective2 symbols having 1 year digit.
+            </summary>
+            <param name="symbol">The symbol.</param>
+            <returns></returns>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.Id">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.Added">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.AvgLoss">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.AvgWin">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.CurrentCash">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.ClosedPL">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.DollarLoss">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.DollarWin">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.MarginUsed">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.MonthlyFee">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.NumLoss">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.NumTrades">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.NumWins">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.Name">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.OpenEquity">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.OpenPositionsPL">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.Started">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.StartingCapital">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.TradeFreq">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.TrialDays">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.Signals">
+            <exclude/>
+            <summary>
+            Trades
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.Trades">
+            <exclude/>
+            <summary>
+            Trades
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.PartialTrades">
+            <exclude/>
+            <summary>
+            Partial Trades
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.Equity">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.Cash">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.DrawDown">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.GetAccountEquity(System.Collections.Generic.IEnumerable{System.Int64})">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.GetAccountEquity(System.Int64)">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.#ctor(System.Int64)">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.#ctor(C2ExplorerDB.exploreDB,System.Int64)">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.GetSignalsPL">
+            <exclude/>
+            <summary>
+            GetSignalsPL
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.TradesHistogramData(System.Int16)">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.TradesHistogramPercentData(System.Int16)">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.TradesHistogramPercent(System.Int16)">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.TradesHistogram(System.Int16,System.Boolean,C2ChartsLibrary.Enums.C2ExplorerThemeName)">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.SymbolsProfits(System.Boolean)">
+            <exclude/>
+            <summary>
+            Profit/loss per symbol
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.SymbolsProfitsData">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.SymbolsTrades(System.Boolean)">
+            <exclude/>
+            <summary>
+            A number of trades and signals per per symbol
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.SymbolsTradesData">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.SymbolsTradesVolumesData">
+            <exclude/>
+            <summary>
+            SymbolsTradesVolumesData
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.SymbolsTradesVolumes(System.Boolean)">
+            <exclude/>
+            <summary>
+            SymbolsTradesVolumes
+            </summary>
+            <param name="navigator"></param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.SystemChart(C2ChartsLibrary.Interfaces.EquityChartType,C2ChartsLibrary.Enums.C2ExplorerThemeName,System.String)">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TradingSystem.TradesTimeLine(C2ChartsLibrary.Interfaces.TimeLineGroups,C2ChartsLibrary.Interfaces.TimeLineTradesType,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Double,System.Boolean)">
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.CodeTemplate">
+            <exclude/>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Implementation.CodeTemplate.Template">
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionBand">
+            <summary>
+            Commission band definition.
+            </summary>
+            <remarks>
+            There are 3 bands of commission schedule table. The Band defines a number of shares/contracts traded, 
+            commission per unit and/or fixed price. EndsQuant = -1 the band is not active. Zero means: apply this band to all remaining quantity.
+            </remarks>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionBand.Result(System.Tuple{System.Decimal,System.Int64})">
+            <summary>
+            Calculates commissions and returns them added to the accumulator. Returns left quantity.
+            </summary>
+            <param name="accumulator">The accumulator. 
+            The first item is commissions accumulator, the second is a quantity.</param>
+            <returns>Accumulated commissions in the first item, remaining quantity int he second item.</returns>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionByInstrument.SystemId">
+            <summary>
+            System identifier.
+            </summary>
+            <value>
+            Colective2 trading system id.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionByInstrument.Instrument">
+            <summary>
+            A type of the instrument.
+            </summary>
+            <value>
+            The instrument.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionByInstrument.Commission">
+            <summary>
+            Sum of commission fees per instrument.
+            </summary>
+            <value>
+            The commission.
+            </value>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionByInstrument.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionByInstrument"/> class.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionByPlan.SystemId">
+            <summary>
+            System identifier.
+            </summary>
+            <value>
+            Colective2 trading system id.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionByPlan.PlanId">
+            <summary>
+            Commissions plan Id.
+            </summary>
+            <value>
+            One of available plans.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionByPlan.PlanName">
+            <summary>
+            Commissions plan name.
+            </summary>
+            <value>
+            One of available plans.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionByPlan.Commission">
+            <summary>
+            Sum of commission fees.
+            </summary>
+            <value>
+            Sum of paid commissions.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionByPlan.Comment">
+            <summary>
+            Gets or sets the comment.
+            </summary>
+            <value>
+            For example: "Commissions plan is not available for some traded instruments."
+            </value>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionByPlan.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionByPlan"/> class.
+            </summary>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.Commissions.Commissions">
+            <summary>
+            This class includes all commissions calculations.
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.Commissions.Commissions.ReadPlanDb(System.String)">
+            <summary>
+            Rad a plan from the database.
+            A separated "mockable" method. 
+            </summary>
+            <param name="planName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.Commissions.Commissions.LoadPlan(System.String,System.Collections.Generic.IDictionary{C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionsKey,C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionsPlan})">
+            <summary>
+            Reads a plan from the database and stores it.
+            </summary>
+            <param name="planName">Name of the plan.</param>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.Commissions.Commissions.LoadDefaultPlan">
+            <summary>
+            For testing.
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.Commissions.Commissions.calcCommissions(C2ExplorerDB.c2ex_closedsignals)">
+            <summary>
+            Calculates the commissions.
+            </summary>
+            <param name="signal">The signal.</param>
+            <returns>Commissions in dollars.</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.Commissions.Commissions.calcCommissions(System.Collections.Generic.IEnumerable{C2ExplorerDB.c2ex_closedsignals},System.Boolean)">
+            <summary>
+            Calculates commissions for given signals
+            </summary>
+            <param name="signals"></param>
+            <param name="throwIfNotFound"></param>
+            <returns>Commissions</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.Commissions.Commissions.CalcCommissions(System.Collections.Generic.IEnumerable{C2ExplorerDB.c2ex_closedsignals})">
+            <exclude>I do not know why, but this method crashes Sandcastle Help Builder</exclude>
+            <summary>
+            Calculates commissions for given signals
+            </summary>
+            <param name="signals"></param>
+            <returns>Commissions</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.Commissions.Commissions.getSignals(System.Int64)">
+            <summary>
+            Gets the signals.
+            </summary>
+            <param name="systemId">The system identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionsPlan">
+            <summary>
+            This class represents a commission plan. 
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionsPlan.Id">
+            <summary>
+            The plan identifier.
+            </summary>
+            <value>
+            The string used as an identifier. For example: "default", "mbt", "ib".
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionsPlan.Instrument">
+            <summary>
+            The instrument to which this plan is to be applied.
+            </summary>
+            <value>
+            The instrument.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionsPlan.Symbol">
+            <summary>
+            A commission pan can be defined for the particular symbol too.
+            </summary>
+            <value>
+            The symbol.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionsPlan.TicketCharge">
+            <summary>
+            Gets or sets the ticket charge.
+            </summary>
+            <value>
+            The ticket charge.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionsPlan.PerUnit">
+            <summary>
+            Gets or sets commission per traded unit.
+            </summary>
+            <value>
+            Dollars.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionsPlan.MinTicketTotal">
+            <summary>
+            Gets or sets the minimum ticket total.
+            </summary>
+            <value>
+            The minimum ticket total.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionsPlan.Currency">
+            <summary>
+            Gets or sets the currency. Not used for now.
+            </summary>
+            <value>
+            The currency.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionsPlan.NonStandardScale">
+            <summary>
+            Gets or sets the non standard scale.
+            </summary>
+            <remarks>NonStandardScale is a number which is used to multiply the resulting commission.</remarks>
+            <value>
+            Multiplier.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionsPlan.Band1">
+            <summary>
+            Band1. <see cref="T:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionBand"/>
+            </summary>
+            <value>
+            The CommissionBand object.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionsPlan.Band2">
+            <summary>
+            Band2. <see cref="T:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionBand"/>
+            </summary>
+            <value>
+            The CommissionBand object.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionsPlan.Band3">
+            <summary>
+            Band3. <see cref="T:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionBand"/>
+            </summary>
+            <value>
+            The CommissionBand object.
+            </value>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.Commissions.CommissionsPlan.Result(C2ExplorerDB.c2ex_closedsignals)">
+            <summary>
+            Computes commission for the specified signal.
+            </summary>
+            <param name="signal">The signal.</param>
+            <returns>Computed commission value based on this plan.</returns>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.Margin.MarginEvent">
+            <summary>
+            Margin event details.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Margin.MarginEvent.DateTime">
+            <summary>
+            Event timestamp
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Margin.MarginEvent.RunningQuant">
+            <summary>
+            Currently opened quantity
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Margin.MarginEvent.Symbol">
+            <summary>
+            Traded symbol
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Margin.MarginEvent.Instrument">
+            <summary>
+            Type of the symbol
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Margin.MarginEvent.PositionOpened">
+            <summary>
+            Position opened when.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Margin.MarginEvent.PositionFullyClosed">
+            <summary>
+            Position fully closed when.
+            </summary>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.Margin.MarginTimeSheet">
+            <summary>
+            Genarates a sheet of margin values at time.
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.Margin.MarginTimeSheet.#ctor(C2ExplorerDB.exploreDB,System.Collections.Generic.IEnumerable{System.Int64},C2ExplorerServiceStack.Logic.Implementation.Commissions.Commissions,C2ExplorerServiceStack.Logic.Implementation.IC2ExplorerDBDataSource,C2ExplorerServiceStack.Logic.Implementation.ISeetuDBDataSource,C2ExplorerServiceStack.Logic.Interfaces.TimeInterval,C2ExplorerServiceStack.Logic.Interfaces.EquityType)">
+            <summary>
+            Initializes a new instance of the <see cref="T:C2ExplorerServiceStack.Logic.Implementation.Margin.MarginTimeSheet"/> class.
+            </summary>
+            <param name="db">The database.</param>
+            <param name="systemsIds">The systems ids.</param>
+            <param name="timeInterval">The time interval. <see cref="T:C2ExplorerServiceStack.Logic.Interfaces.TimeInterval"/></param>
+            <param name="equityType">Type of the equity. <see cref="T:C2ExplorerServiceStack.Logic.Interfaces.EquityType"/></param>
+            <param name="commissionPLan">The commission plan.</param>
+            <param name="runningUnitTest">Unit tests flag.</param>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.Margin.MarginValue">
+            <summary>
+            Margiun value at time.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Margin.MarginValue.DateTime">
+            <summary>
+            DateTime
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Margin.MarginValue.Margin">
+            <summary>
+            Margin value
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.SignalsAnalysisDeedle.SignalsFrame_01(System.Collections.Generic.IEnumerable{C2ExplorerServiceStack.Logic.Interfaces.ISignal2})">
+            <summary>
+            Create a spreadsheet and use it for analyze
+            </summary>
+            <param name="signals">The signals.</param>
+            <returns></returns>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.Portfolio.TradedSymbolsChart">
+            <summary>
+            This chart helps to answer a question: what position(s) (symbols) was opened at the specific time.
+            </summary>
+            <exclude/>
+            <excluded/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.Portfolio.TradedSymbolsChart.getSymbolsEquities(System.String)">
+            <summary>
+            Reads CSV files produced by ExternalEquity curve and converts them to Series
+            </summary>
+            <param name="path">The path.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.TradesAnalysis.TradesIntersections_Full(System.Collections.Generic.IEnumerable{System.Int64})">
+            <summary>
+            Returns lists of simultaneously opened positions.
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.TradesAnalysis.TradesIntersections_counting_symbols_in_open_position(System.Collections.Generic.IEnumerable{C2ExplorerServiceStack.Logic.Implementation.TradesAnalysis.tradeEnhanced})">
+            <summary>
+            Returns counts of simultaneously opened positions of different symbols for Collective2 investigation.
+            We want to know how many symbols we need to be able to subscribe in IEX, CME,...
+            In other words: 20 simultaneously opened positions (in different systems of course) mean 1 subscribed symbol.
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.TradesAnalysis.TradesLength(System.Collections.Generic.IEnumerable{C2ExplorerServiceStack.Logic.Implementation.TradesAnalysis.tradeEnhanced},System.String)">
+            <summary>
+            Closed trades length.
+            </summary>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.InstrumentTradesCount">
+            <inheritdoc cref="T:C2ExplorerServiceStack.Logic.Interfaces.IInstrumentTradesCount"/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.InstrumentTradesCount.TradesCount">
+            <inheritdoc/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.C2TALib">
+            <summary>
+            Technical analysis functions
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.EMA(Deedle.Series{System.DateTime,System.Decimal},System.Int32)">
+            <summary>
+            Exponential moving average.
+            </summary>
+            <param name="data">Data time series</param>
+            <param name="periods">Number of periods</param>
+            <returns>Moving average series</returns>
+            <exception cref="T:C2LibraryBase.Implementation.C2RuntimeException">Thrown when input data or parameters are wrong.</exception>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.EMA(Deedle.Series{System.DateTime,System.Double},System.Int32)">
+            <summary>
+            Exponential moving average.
+            </summary>
+            <param name="data">Data time series</param>
+            <param name="periods">Number of periods</param>
+            <returns>Moving average series</returns>
+            <exception cref="T:C2LibraryBase.Implementation.C2RuntimeException">Thrown when input data or parameters are wrong.</exception>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.ma(Deedle.Series{System.DateTime,System.Double},System.Int32)">
+            <summary>
+            Simple moving average.
+            </summary>
+            <param name="data">Data time series</param>
+            <param name="periods">Number of periods</param>
+            <returns>Moving average series</returns>
+            <exception cref="T:C2LibraryBase.Implementation.C2RuntimeException">Thrown when input data or parameters are wrong.</exception>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.MA(Deedle.Series{System.DateTime,System.Double},System.Int32)">
+            <summary>
+            Simple moving average.
+            </summary>
+            <param name="data">Data time series</param>
+            <param name="periods">Number of periods</param>
+            <returns>Moving average series</returns>
+            <exception cref="T:C2LibraryBase.Implementation.C2RuntimeException">Thrown when input data or parameters are wrong.</exception>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.MA(Deedle.Series{System.DateTime,System.Decimal},System.Int32)">
+            <summary>
+            Simple moving average.
+            </summary>
+            <param name="data">Data time series</param>
+            <param name="periods">Number of periods</param>
+            <returns>Moving average series</returns>
+            <exception cref="T:C2LibraryBase.Implementation.C2RuntimeException">Thrown when input data or parameters are wrong.</exception>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.BBandBot(Deedle.Series{System.DateTime,System.Double},System.Int32,System.Double)">
+            <summary>
+            Lower Bollinger band.
+            </summary>
+            <param name="data">Time series.</param>
+            <param name="periods">The periods.</param>
+            <param name="numberOfDeviations">The number of deviations.</param>
+            <returns>Lower Bollinger band data</returns>
+            <exception cref="T:C2LibraryBase.Implementation.C2RuntimeException">Thrown when input data or parameters are wrong.</exception>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.BBandBot(Deedle.Series{System.DateTime,System.Decimal},System.Int32,System.Double)">
+            <summary>
+            Lower Bollinger band.
+            </summary>
+            <param name="data">Time series.</param>
+            <param name="periods">The periods.</param>
+            <param name="numberOfDeviations">The number of deviations.</param>
+            <returns>Lower Bollinger band data</returns>
+            <exception cref="T:C2LibraryBase.Implementation.C2RuntimeException">Thrown when input data or parameters are wrong.</exception>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.BBandTop(Deedle.Series{System.DateTime,System.Double},System.Int32,System.Double)">
+            <summary>
+            Upper Bollinger band.
+            </summary>
+            <param name="data">Time series.</param>
+            <param name="periods">The periods.</param>
+            <param name="numberOfDeviations">The number of deviations.</param>
+            <returns>Upper Bollinger band data</returns>
+            <exception cref="T:C2LibraryBase.Implementation.C2RuntimeException">Thrown when input data or parameters are wrong.</exception>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.BBandTop(Deedle.Series{System.DateTime,System.Decimal},System.Int32,System.Double)">
+            <summary>
+            Upper Bollinger band.
+            </summary>
+            <param name="data">Time series.</param>
+            <param name="periods">The periods.</param>
+            <param name="numberOfDeviations">The number of deviations.</param>
+            <returns>Upper Bollinger band data</returns>
+            <exception cref="T:C2LibraryBase.Implementation.C2RuntimeException">Thrown when input data or parameters are wrong.</exception>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.LinearReg(Deedle.Series{System.DateTime,System.Double},System.Int32)">
+            <summary>
+            Linear regression.
+            </summary>
+            <param name="data">Data time series</param>
+            <param name="periods">Number of periods</param>
+            <returns>Linear regression series</returns>
+            <exception cref="T:C2LibraryBase.Implementation.C2RuntimeException">Thrown when input data or parameters are wrong.</exception>
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.LinearReg(Deedle.Series{System.DateTime,System.Decimal},System.Int32)">
+            <summary>
+            Linear regression.
+            </summary>
+            <param name="data">Data time series</param>
+            <param name="periods">Number of periods</param>
+            <returns>Linear regression series</returns>
+            <exception cref="T:C2LibraryBase.Implementation.C2RuntimeException">Thrown when input data or parameters are wrong.</exception>
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.LinearRegIntercept(Deedle.Series{System.DateTime,System.Double},System.Int32)">
+            <summary>
+            Linear regression intercept.
+            </summary>
+            <param name="data">The data.</param>
+            <param name="periods">The periods.</param>
+            <returns>Linear regression intercept series.</returns>
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.LinearRegIntercept(Deedle.Series{System.DateTime,System.Decimal},System.Int32)">
+            <summary>
+            Linear regression intercept.
+            </summary>
+            <param name="data">The data.</param>
+            <param name="periods">The periods.</param>
+            <returns>Linear regression intercept series.</returns>
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.LinearRegIntercept(Deedle.Series{System.DateTime,System.Double})">
+            <summary>
+            Linear regression intercept.
+            </summary>
+            <param name="data">Time series.</param>
+            <returns>Linear regression line intercept.</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.LinearRegIntercept(Deedle.Series{System.DateTime,System.Decimal})">
+            <summary>
+            Linear regression intercept.
+            </summary>
+            <param name="data">Time series.</param>
+            <returns>Linear regression line intercept.</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.LinearRegSlope(Deedle.Series{System.DateTime,System.Double})">
+            <summary>
+            Linear regression slope.
+            </summary>
+            <param name="data">Time series.</param>
+            <returns>Linear regression line slope.</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.LinearRegSlope(Deedle.Series{System.DateTime,System.Decimal})">
+            <summary>
+            Linear regression slope.
+            </summary>
+            <param name="data">Time series.</param>
+            <returns>Linear regression line slope.</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.LinearRegLine(Deedle.Series{System.DateTime,System.Double})">
+            <summary>
+            Linear regression trend line for full data series.
+            </summary>
+            <param name="data">The data.</param>
+            <returns>Linear regression line series.</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.LinearRegLine(Deedle.Series{System.DateTime,System.Decimal})">
+            <summary>
+            Linear regression trend line for full data series.
+            </summary>
+            <param name="data">The data.</param>
+            <returns>Linear regression line series.</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.PolynomialReg(Deedle.Series{System.DateTime,System.Double},System.Int32)">
+            <summary>
+            Polynomial regresssion.
+            </summary>
+            <param name="data">Time series.</param>
+            <param name="order">The order.</param>
+            <returns>Polynomial curve time series</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.PolynomialReg(Deedle.Series{System.DateTime,System.Decimal},System.Int32)">
+            <summary>
+            Polynomial regresssion.
+            </summary>
+            <param name="data">Time series.</param>
+            <param name="order">The order.</param>
+            <returns>Polynomial curve time series</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.MACD(Deedle.Series{System.DateTime,System.Decimal},System.Int32,System.Int32,System.Int32)">
+            <summary>
+            MACD
+            </summary>
+            <param name="data">Input time series.</param>
+            <param name="optInFastPeriod">The fast period.</param>
+            <param name="optInSlowPeriod">The slow period.</param>
+            <param name="optInSignalPeriod">The signal period.</param>
+            <returns>MACD, Signal and Histogram time series.</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.MACD(Deedle.Series{System.DateTime,System.Double},System.Int32,System.Int32,System.Int32)">
+            <summary>
+            MACD
+            </summary>
+            <param name="data">Input time series.</param>
+            <param name="optInFastPeriod">The fast period.</param>
+            <param name="optInSlowPeriod">The slow period.</param>
+            <param name="optInSignalPeriod">The signal period.</param>
+            <returns>MACD, Signal and Histogram time series.</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.RSI(Deedle.Series{System.DateTime,System.Decimal},System.Int32)">
+            <summary>
+            Relative Strength Index.
+            </summary>
+            <param name="data">Data time series</param>
+            <param name="periods">Number of periods</param>
+            <returns>Relative Strength Index series</returns>
+            <exception cref="T:C2LibraryBase.Implementation.C2RuntimeException">Thrown when input data or parameters are wrong.</exception>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.RSI(Deedle.Series{System.DateTime,System.Double},System.Int32)">
+            <summary>
+            Relative Strength Index.
+            </summary>
+            <param name="data">Data time series</param>
+            <param name="periods">Number of periods</param>
+            <returns>Relative Strength Index series</returns>
+            <exception cref="T:C2LibraryBase.Implementation.C2RuntimeException">Thrown when input data or parameters are wrong.</exception>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.ROC(Deedle.Series{System.DateTime,System.Decimal},System.Int32)">
+            <summary>
+            Rate of change : ((price/prevPrice)-1)*100
+            </summary>
+            <param name="data">Data time series</param>
+            <param name="periods">Number of periods</param>
+            <returns>Rate of change series</returns>
+            <exception cref="T:C2LibraryBase.Implementation.C2RuntimeException">Thrown when input data or parameters are wrong.</exception>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.ROC(Deedle.Series{System.DateTime,System.Double},System.Int32)">
+            <summary>
+            Rate of change : ((price/prevPrice)-1)*100
+            </summary>
+            <param name="data">Data time series</param>
+            <param name="periods">Number of periods</param>
+            <returns>Rate of change series</returns>
+            <exception cref="T:C2LibraryBase.Implementation.C2RuntimeException">Thrown when input data or parameters are wrong.</exception>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.MOM(Deedle.Series{System.DateTime,System.Decimal},System.Int32)">
+            <summary>
+            Momentum.
+            </summary>
+            <param name="data">Data time series</param>
+            <param name="periods">Number of periods</param>
+            <returns>Momentum time series</returns>
+            <exception cref="T:C2LibraryBase.Implementation.C2RuntimeException">Thrown when input data or parameters are wrong.</exception>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.MOM(Deedle.Series{System.DateTime,System.Double},System.Int32)">
+            <summary>
+            Momentum.
+            </summary>
+            <param name="data">Data time series</param>
+            <param name="periods">Number of periods</param>
+            <returns>Momentum time series</returns>
+            <exception cref="T:C2LibraryBase.Implementation.C2RuntimeException">Thrown when input data or parameters are wrong.</exception>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.StdDev(Deedle.Series{System.DateTime,System.Double},System.Int32,System.Double)">
+            <summary>
+            Standard deviation.
+            </summary>
+            <param name="data">Time series.</param>
+            <param name="periods">Number of periods.</param>
+            <param name="numberOfDeviations">Number of deviations.</param>
+            <returns>Standard deviation data.</returns>
+            <exception cref="T:C2LibraryBase.Implementation.C2RuntimeException">Thrown when input data or parameters are wrong.</exception>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.StdDev(Deedle.Series{System.DateTime,System.Decimal},System.Int32,System.Double)">
+            <summary>
+            Standard deviation.
+            </summary>
+            <param name="data">Time series.</param>
+            <param name="periods">Number of periods.</param>
+            <param name="numberOfDeviations">Number of deviations.</param>
+            <returns>Standard deviation data.</returns>
+            <exception cref="T:C2LibraryBase.Implementation.C2RuntimeException">Thrown when input data or parameters are wrong.</exception>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.Variance(Deedle.Series{System.DateTime,System.Double},System.Int32,System.Double)">
+            <summary>
+            Variance.
+            </summary>
+            <param name="data">Time series.</param>
+            <param name="periods">Number of periods.</param>
+            <param name="numberOfDeviations">Number of deviations.</param>
+            <returns></returns>
+            <exception cref="T:C2LibraryBase.Implementation.C2RuntimeException">Thrown when input data or parameters are wrong.</exception>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2TALib.Variance(Deedle.Series{System.DateTime,System.Decimal},System.Int32,System.Double)">
+            <summary>
+            Variance.
+            </summary>
+            <param name="data">Time series.</param>
+            <param name="periods">Number of periods.</param>
+            <param name="numberOfDeviations">Number of deviations.</param>
+            <returns></returns>
+            <exception cref="T:C2LibraryBase.Implementation.C2RuntimeException">Thrown when input data or parameters are wrong.</exception>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.Drawdown">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2ExplorerDBDataSource.GetEquityData(System.Int64)">
+            <summary>
+            Gets the equity data from db.c2ex_accountequity.
+            </summary>
+            <param name="systemId">The system identifier.</param>
+            <returns>Collective2 equity data.</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.C2ExplorerDBDataSource.GetSystemData(System.Int64)">
+            <summary>
+            Returns some "fundamental" data from db.c2ex_publicsystems
+            </summary>
+            <param name="systemId">The system identifier.</param>
+            <returns>Selected trading system fundamental data: SystemName, StartingCash, MonthlyFee</returns>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.OhlcTimeSheet">
+            <summary>
+            Timesheet of OHLC values.
+            </summary>
+            <remarks>The lowest time interval is NONE. It means: all values.</remarks>
+            <example>
+            DateTime  EquityOpen EquityHigh EquityLow EquityClose
+            2015-01-15       100       110        90       105 
+            </example>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.TimeSheetBase.Symbols">
+            <summary>
+            TimeSheet can include also symbols OhlcFields
+            </summary>
+            <remarks>Public for TimeSheetContracts.EquitiesSheet() </remarks>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.TimeSheetBase.ohlcFields">
+            <summary>
+            Specifies OHLC fileds of <see cref="P:C2ExplorerServiceStack.Logic.Implementation.TimeSheetBase.Symbols"/>
+            </summary>
+            <value>
+            The ohlc fields.
+            </value>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.TimeSheetBase.prepareRealignSequence(C2ExplorerServiceStack.Logic.Interfaces.TimeInterval,System.DateTime,System.DateTime)">
+            <summary>
+            Prepares the realign sequence.
+            </summary>
+            <param name="timeInterval">The time interval.</param>
+            <param name="fromDate">From date.</param>
+            <param name="toDate">To date.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception">
+            Wrong TimeInterval
+            or
+            Error: getSeries wrong TimeInterval
+            </exception>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.TimeSheetContracts">
+            <summary>
+            Abstract class holding code contracts
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.TimeSheetContracts.TimeInterval">
+            <summary>
+            TimeSheet can include also symbols OhlcFields
+            </summary>
+            <remarks>Public for TimeSheetContracts.EquitiesSheet() </remarks>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.TimeSheet">
+            <exclude/>
+            <summary>
+            TimeSheet
+            </summary>
+            <seealso cref="T:C2ExplorerServiceStack.Logic.Interfaces.ITimeSheet" />
+            <seealso cref="T:C2ExplorerServiceStack.Logic.Interfaces.ITimeSheetInternal" />
+            <seealso cref="T:C2ExplorerServiceStack.Logic.Interfaces.ITimeSheetTests" />
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.TimeSheet.OneSymbol(System.String,System.DateTime,C2ExplorerServiceStack.Logic.Interfaces.TimeInterval,C2ExplorerServiceStack.Logic.Interfaces.EquityType)">
+            <summary>
+            Creates a sheet for one system.
+            </summary>
+            <param name="symbol">The system identifier.</param>
+            <param name="firstDate">The first date.</param>
+            <param name="timeInterval">The time interval.</param>
+            <param name="equityType">Type of the equity.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.TimeSheet.symbolsSheet(System.DateTime,System.Boolean)">
+            <summary>
+            This function creates a spreadsheet of strategies returns.
+            </summary>
+            <returns>
+            A spreadsheet with columns defined <paramref name="equityType" /> flags.
+            </returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.TimeSheet.GetEquitiesSheet">
+            <summary>
+            Top level function 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.TimeSheet.OneSystemEquitiesSheet(System.Int64,C2ExplorerDB.c2ex_publicsystems,C2ExplorerServiceStack.Logic.Interfaces.TimeInterval,C2ExplorerServiceStack.Logic.Interfaces.EquityType)">
+            <summary>
+            Creates a sheet for one system.
+            </summary>
+            <param name="systemId">The system identifier.</param>
+            <param name="systemData">The system data.</param>
+            <param name="timeInterval">The time interval.</param>
+            <param name="equityType">Type of the equity.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.TimeSheet.systemsSheet(System.Boolean)">
+            <summary>
+            This function creates a spreadsheet of strategies returns.
+            </summary>
+            <returns>
+            A spreadsheet with columns defined <paramref name="equityType" /> flags.
+            </returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.TimeSheet.EquitiesSheet(System.Boolean)">
+            <summary>
+            This function creates a spreadsheet of strategies returns.
+            </summary>
+            <returns>
+            A spreadsheet with columns defined <paramref name="equityType" /> flags.
+            </returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.TimeSheet.getEquitySeries(System.Collections.Generic.IEnumerable{C2ExplorerDB.c2ex_accountequity},System.DateTime,C2ExplorerServiceStack.Logic.Interfaces.TimeInterval)">
+            <summary>
+            getEquitySeries
+            </summary>
+            <param name="equity">The equity.</param>
+            <param name="systemStarted">The system started.</param>
+            <param name="timeInterval">The time interval.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.TimeSheet.getCommissionsSeries(System.Int64,System.DateTime,C2ExplorerServiceStack.Logic.Interfaces.TimeInterval)">
+            <summary>
+            getCommissionsSeries
+            </summary>
+            <param name="systemId">The system identifier.</param>
+            <param name="systemStarted">The system started.</param>
+            <param name="timeInterval">The time interval.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.TimeSheet.getSubscriptionFeesSeries(System.DateTime,System.DateTime,System.Decimal,System.Int32,C2ExplorerServiceStack.Logic.Interfaces.TimeInterval)">
+            <summary>
+            getSubscriptionFeesSeries
+            </summary>
+            <param name="systemStarted"></param>
+            <param name="equityLastDate"></param>
+            <param name="monthlyFees"></param>
+            <param name="trialDays"></param>
+            <param name="timeInterval"></param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.TimeSheet.prepareStartingDateTime(System.DateTime,C2ExplorerServiceStack.Logic.Interfaces.TimeInterval)">
+            <summary>
+            Prepares the starting date time.
+            </summary>
+            <param name="firstDateTime">The first date time.</param>
+            <param name="timeInterval">The time interval.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.TimeSheet.getDateTimeSeries(System.DateTime,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.DateTime,System.Decimal}},C2ExplorerServiceStack.Logic.Interfaces.TimeInterval,System.Decimal,Deedle.Lookup)">
+            <summary>
+            Prepare time series
+            </summary>
+            <param name="firstDateTime">The first date time.</param>
+            <param name="dailySeries">The daily series.</param>
+            <param name="timeInterval">The time interval.</param>
+            <param name="filler">The filler.</param>
+            <param name="lookup">The lookup.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception">Error: getSeries wrong TimeInterval</exception>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.TimeSheet.getDateTimeSeries(System.DateTime,Deedle.Series{System.DateTime,System.Decimal},C2ExplorerServiceStack.Logic.Interfaces.TimeInterval,System.Decimal,Deedle.Lookup)">
+            <summary>
+            Prepare time series
+            </summary>
+            <param name="firstDateTime">The first date time.</param>
+            <param name="dailySeries">The daily series.</param>
+            <param name="timeInterval">The time interval.</param>
+            <param name="filler">The filler.</param>
+            <param name="lookup">The lookup.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.TimeSheet.alignTimeSeries(System.DateTime,C2ExplorerServiceStack.Logic.Interfaces.TimeInterval,System.Decimal,Deedle.Series{System.DateTime,System.Decimal},Deedle.Lookup)">
+            <summary>
+            Prepare time series
+            </summary>
+            <param name="firstDateTime">The first date time.</param>
+            <param name="timeInterval">The time interval.</param>
+            <param name="filler">The filler.</param>
+            <param name="series">The series.</param>
+            <param name="lookup">The lookup.</param>
+            <returns></returns>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.Compiler">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.Compiler.Compile(C2ExplorerServiceStack.ServiceModel.RunQuery,System.Boolean)">
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.Correlation">
+            <summary>
+            private
+            </summary>
+            <seealso cref="T:C2ExplorerServiceStack.Logic.Interfaces.ICorrelation" />
+            <seealso cref="T:C2ExplorerServiceStack.Logic.Interfaces.ICorrelationTests" />
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.Correlation.#ctor(C2ExplorerDB.exploreDB,System.Collections.Generic.IEnumerable{System.Int64},System.String,C2ExplorerServiceStack.Logic.Interfaces.TimeInterval,System.String,C2ExplorerServiceStack.Logic.Interfaces.EquityType,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:C2ExplorerServiceStack.Logic.Implementation.Correlation" /> class.
+            </summary>
+            <param name="db">The database.</param>
+            <param name="systemsIds">The systems ids.</param>
+            <param name="symbol">The symbol.</param>
+            <param name="timeInterval">The time interval.</param>
+            <param name="commissionPLan">The commission p lan.</param>
+            <param name="equityType">Type of the equity.</param>
+            <param name="runningUnitTest">if set to <c>true</c> [running unit test].</param>
+            <remarks>
+            The parameter equityType is at the end because it will be used rarely if at all.
+            </remarks>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.Correlation.#ctor(C2ExplorerDB.exploreDB,System.Int64,System.String,C2ExplorerServiceStack.Logic.Interfaces.TimeInterval,System.String,C2ExplorerServiceStack.Logic.Interfaces.EquityType,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:C2ExplorerServiceStack.Logic.Implementation.Correlation" /> class.
+            </summary>
+            <param name="db">The database.</param>
+            <param name="systemsIds">The systems ids.</param>
+            <param name="symbol">The symbol.</param>
+            <param name="timeInterval">The time interval.</param>
+            <param name="commissionPLan">The commission p lan.</param>
+            <param name="equityType">Type of the equity.</param>
+            <param name="runningUnitTest">if set to <c>true</c> [running unit test].</param>
+            <remarks>
+            The parameter equityType is at the end because it will be used rarely if at all.
+            </remarks>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.HtmlFrame">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.HtmlFrame.Src">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.HtmlFrame.SrcDoc">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.HtmlFrame.Width">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.HtmlFrame.Height">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.HtmlFrame.Seamless">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.HtmlFrame.#ctor">
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.Globals">
+            <summary>
+            Named constants and global values.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Implementation.Globals.BTO">
+            <summary>
+            Buy-to-Open (Buy) trading signal.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Implementation.Globals.BTC">
+            <summary>
+            Buy-to-Close (Cover) trading signal.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Implementation.Globals.STO">
+            <summary>
+            Sell-to-Open (Short) trading signal.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Implementation.Globals.SHORT">
+            <summary>
+            Sell-to-Open (Short) trading signal.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Implementation.Globals.STC">
+            <summary>
+            Sell-to-Close (Sell) trading signal.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Implementation.Globals.EXP">
+            <summary>
+            Option expiration.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Implementation.Globals.Stock">
+            <summary>
+            The stock instrument.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Implementation.Globals.Forex">
+            <summary>
+            The forex instrument.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Implementation.Globals.Future">
+            <summary>
+            The future instrument.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Implementation.Globals.Option">
+            <summary>
+            The option instrument.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Implementation.Globals.NumOfBarsForDailyEquity">
+            <summary>
+            The number of bars for daily equity graph to switch to then Candle chart. 
+            </summary>
+            <seealso cref="!:C2ExplorerServiceStack.Logic.Interfaces.EquityChartType"/>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Implementation.Globals.DatabaseCommandTimeout">
+            <summary>
+            The database query timeout in seconds.
+            </summary>
+            <seealso cref="!:C2ExplorerServiceStack.Logic.Interfaces.EquityChartType"/>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Implementation.Globals.QueryRunTimeout">
+            <summary>
+            The query run timeout in milliseconds.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Implementation.Globals.DefaultCommissPlan">
+            <summary>
+            The default commission plan shortcut.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Implementation.Globals.CommissionPlans">
+            <summary>
+            A list of shortcuts of the currently available commission plans.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Implementation.Globals.non_US_Exchange_prefixes">
+            <summary>
+            Non-US exchanges prefixes.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Implementation.Globals.futuresExchangesProvidedByCQG">
+            <summary>
+            A list of used futures exchanges.
+            </summary>
+            
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Implementation.Globals.futuresRoots_CQG_SFE">
+            <summary>
+            Tradable futures - SFE.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Implementation.Globals.futuresRoots_CQG_HKFE">
+            <summary>
+            Tradable futures - HKFE.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Implementation.Globals.futuresRoots_CQG_MEFF">
+            <summary>
+            Tradable futures - MEFF.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Implementation.Globals.futuresRoots_CQG_ASX">
+            <summary>
+            Tradable futures - ASX.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Implementation.Globals.futuresRoots_CQG_BDM">
+            <summary>
+            Tradable futures - BDM.
+            </summary>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.GlobalsInternal">
+            <summary>
+            Do not use in QueryRunner. Just for testing.
+            </summary>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.GridFilterOptions">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.GridFilterOptions.#ctor">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.GridFilterOptions.condition">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.GridFilterOptions.placeholder">
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.GridColumnDef">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.GridColumnDef.aggregationType">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.GridColumnDef.cellFilter">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.GridColumnDef.cellTemplate">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.GridColumnDef.enableGrouping">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.GridColumnDef.groupPriority">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.GridColumnDef.name">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.GridColumnDef.type">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.GridColumnDef.#ctor">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.GridColumnDef.field">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.GridColumnDef.filters">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.GridColumnDef.filter">
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.GridOptions">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.GridOptions.columnDefs">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.GridOptions.#ctor">
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.GroupColumnDef">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.GroupColumnDef.#ctor">
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.Group">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Group.Data">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.Group.#ctor">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.PortfolioClass.#ctor(C2ExplorerDB.exploreDB,System.Int64[],C2ExplorerServiceStack.Logic.Interfaces.ICommissions,C2ExplorerServiceStack.Logic.Implementation.IC2ExplorerDBDataSource,C2ExplorerServiceStack.Logic.Interfaces.ITimeSheet,C2ExplorerServiceStack.Logic.Interfaces.TimeInterval)">
+            <summary>
+            Constructor for unit tests. Enables to use fake objects.
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.PortfolioClass.#ctor(C2ExplorerDB.exploreDB,System.Int64[],System.String,C2ExplorerServiceStack.Logic.Interfaces.TimeInterval)">
+            <summary>
+            Public constructor/
+            </summary>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.SymbolPL">
+            <inheritdoc cref="T:C2ExplorerServiceStack.Logic.Interfaces.ISymbolPL"/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.SymbolPL.Symbol">
+            <inheritdoc/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.SymbolPL.ProfitLoss">
+            <inheritdoc/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.SymbolTradedVolume">
+            <inheritdoc cref="T:C2ExplorerServiceStack.Logic.Interfaces.ISymbolTradedVolume"/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.SymbolTradedVolume.Symbol">
+            <inheritdoc/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.SymbolTradedVolume.Volume">
+            <inheritdoc/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.SymbolTradesCount">
+            <inheritdoc cref="T:C2ExplorerServiceStack.Logic.Interfaces.ISymbolTradesCount"/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.SymbolTradesCount.Symbol">
+            <inheritdoc/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.SymbolTradesCount.TradesCount">
+            <inheritdoc/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.Query">
+            <summary>
+            This structure is for compilation and run
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.ScriptRunner.RunUsingInterfaceInheritance(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            RUN!
+            </summary>
+            <param name="UserId">The user identifier.</param>
+            <param name="QueryId">The query identifier.</param>
+            <param name="SourceCode">The source code.</param>
+            <returns></returns>
+            <exception cref="T:C2ExplorerServiceStack.Logic.Interfaces.ScriptRunnerException"></exception>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.QueryRunner.InitDb">
+            <summary>
+            Default database initialization for public usage.
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.QueryRunner.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.QueryRunner.ExecuteUserCode">
+            <summary>
+            Virtual method overridden by a user code.
+            </summary>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.Signal">
+            <exclude />
+            <summary>
+            Internal class
+            </summary>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Implementation.Signal2">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Signal2.Signal">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Signal2.AvgEntry">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Signal2.CumulativePosition">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Signal2.TmpAmount">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Signal2.OID">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Signal2.ExpiredWhen">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Signal2.KilledWhen">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Implementation.Signal2.TradedWhen">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.TradingSystemUtils.AveragePrices(System.Collections.Generic.IEnumerable{C2ExplorerServiceStack.Logic.Interfaces.ISignal})">
+            <summary>
+            Computes averaged prices in the sequence of signals forming one trade.
+            </summary>
+            <param name="tradeSignals">Partial signals of one trade.</param>
+            <returns>Collection of objects ISignal2</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.TradingSystemUtils.TradeResult(C2ExplorerServiceStack.Logic.Interfaces.ISignal2)">
+            <summary>
+            Long/Short trade result
+            </summary>
+            <param name="signal"></param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.TradingSystemUtils.PartialTradesSequence____________WRONG(System.Collections.Generic.IEnumerable{C2ExplorerServiceStack.Logic.Interfaces.ISignal})">
+            <summary>
+            Computes average prices in the sequence of signals and returns a sequence of partial trades.
+            Partial trade means: every exit from position is a trade.
+            We suppose that the input are signals of CLOSED trades!
+            </summary>
+            <param name="aTradeSignals"></param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.TradingSystemUtils.PartialTradesSequence(System.Collections.Generic.IEnumerable{C2ExplorerServiceStack.Logic.Interfaces.ISignal})">
+            <summary>
+            Computes average prices in the sequence of signals and returns a sequence of partial trades.
+            Partial trade means: every exit from position is a trade.
+            We suppose that the input are signals of CLOSED trades!
+            </summary>
+            <param name="aTradeSignals"></param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.TradingSystemUtils.PartialTrades(System.Collections.Generic.IEnumerable{C2ExplorerServiceStack.Logic.Interfaces.ISignal})">
+            <summary>
+            Convert trading system signals sequence to partial trades sequence.
+            </summary>
+            <param name="allTradingSystemSignals"></param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.Utils.formatErrors(csscript.CompilerException)">
+            <summary>
+            Format errors retunred by compiler
+            </summary>
+            <param name="e"></param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.Utils.DumpData(System.String,System.CodeDom.Compiler.CompilerErrorCollection,System.Text.StringBuilder)">
+            <summary>
+            Helper
+            </summary>
+            <param name="name"></param>
+            <param name="errors"></param>
+            <param name="sb"></param>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.Utils.saveQuery_source_code(System.Int64,System.Int64,System.String)">
+            <summary>
+            Save query
+            </summary>
+            <param name="UserId">The user identifier.</param>
+            <param name="QueryId">The query identifier.</param>
+            <param name="SourceCode">The source code.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Implementation.Utils.CSharpToJavascriptType(System.String)">
+            <summary>
+            CSharpToJavascriptType
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.C2Api.IC2Api">
+            <summary>
+            private
+            </summary>
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.OhlcField">
+            <summary>
+            OHLC data fields flags.
+            </summary>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.EquityType">
+            <summary>
+            Types of equity data.
+            </summary>
+            <remarks>Values can be combined like this: EquityType.Raw | EquityType.Rets </remarks>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Interfaces.EquityType.Raw">
+            <summary>
+            The equity without commissions and subscription fees.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Interfaces.EquityType.Diff">
+            <summary>
+            Differences between two consecutive Equity points in dollars.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Interfaces.EquityType.Rets">
+            <summary>
+            Returns between two consecutive Equity points in percents.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Interfaces.EquityType.ROC">
+            <summary>
+            Rate-of-Change. Equity divided by the starting capital.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Interfaces.EquityType.Profit">
+            <summary>
+            Current Equity minus starting capital.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Interfaces.EquityType.Equity">
+            <summary>
+            Full equity. Equity is equal to raw equity minus commissions minus subscription fees.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Interfaces.EquityType.Commiss">
+            <summary>
+            Commissions fees.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Interfaces.EquityType.SubsFees">
+            <summary>
+            Subscription fees.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Interfaces.EquityType.MarginUsed">
+            <summary>
+            Margin used.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Interfaces.EquityType.MarginRatio">
+            <summary>
+            Margin to equity ratio in percents.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Interfaces.EquityType.SP500">
+            <summary>
+            SP500 close prices.
+            </summary>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.TimeInterval">
+            <summary>
+            This enumeration determines time intervals for data aggregation.
+            </summary>
+            <seealso cref="M:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.GetEquitiesSheet(System.Collections.Generic.IEnumerable{System.Int64},C2ExplorerServiceStack.Logic.Interfaces.TimeInterval,C2ExplorerServiceStack.Logic.Interfaces.EquityType,System.String)"/>
+            <seealso cref="!:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.GetCorrelationTable(IEnumerable&lt;long>,TimeInterval,String,Boolean,EquityType)"/>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Interfaces.TimeInterval.Day">
+            <summary>
+            Daily aggregation.
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Interfaces.TimeInterval.Month">
+            <summary>
+            Monthly aggregation
+            </summary>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Interfaces.TimeInterval.Year">
+            <summary>
+            Yearly aggregation
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystemDataFactory.Error">
+            <summary>
+            The first error or an exception message returned when preparing data.
+            It is an empty string when no error occurs. 
+            </summary>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.ICommissions">
+            <summary>
+            Commissions object interface.
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.ICommissions.CalcCommissions(System.Collections.Generic.IEnumerable{C2ExplorerDB.c2ex_closedsignals})">
+            <summary>
+            Calculates commissions for the given signals set.
+            </summary>
+            <param name="signals">The signals.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.ICommissions.CalcCommissions(System.Int64)">
+            <summary>
+            Calculates commissions paid by the trading system.
+            </summary>
+            <param name="systemId">The system identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.ICommissions.CalcCommissionsData(System.Int64)">
+            <summary>
+            Returns signals with commissions calculated.
+            </summary>
+            <param name="systemId">The system identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.ICommissions.CommissionByInstruments(System.Int64)">
+            <summary>
+            Returns a list of commission fees calculated for all types of instruments traded by the trading system.
+            </summary>
+            <param name="systemId">The system identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.ICommissions.CommissionByPlan(System.Int64,System.String)">
+            <summary>
+            Returns a list of commission fees paid usign different brokers.
+            </summary>
+            <param name="systemId">The system identifier.</param>
+            <param name="plansIds">The plans ids.</param>
+            <returns></returns>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.ICommissionsTests">
+            <exclude/>
+            <summary>
+            excluded
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.ICommissionsTests.ReadPlanDb(System.String)">
+            <exclude/>
+            <summary>
+            excluded
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.ICommissionsTests.getSignals(System.Int64)">
+            <exclude/>
+            <summary>
+            excluded
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.ICommissionsTests.CreateCommssions(System.String)">
+            <exclude/>
+            <summary>
+            excluded
+            </summary>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.ICorrelation">
+            <summary>
+            Trading systems correlation.
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.ICorrelation.Table">
+            <summary>
+            Correlation results.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.ICorrelationTests">
+            <exlude></exlude>
+            <summary>
+            ICorrelationTests
+            </summary>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.IExternalInterface">
+            <summary>
+            private
+            </summary>
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.FExternalInterface">
+            <summary>
+            private
+            </summary>
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.IDeedleFrame">
+            <summary>
+            Deedla Frame is a table whith columns Series&lt;DateTime,Decimal>
+            </summary>
+            <seealso cref="!:C2ExplorerServiceStack.Logic.Interfaces.IUserCodeResult" />
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IDeedleFrame.DataFrame">
+            <summary>
+            Deedle Frame.
+            </summary>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.ITimeSheet">
+            <summary>
+            TimeSheet is a table which has one DateTime column and various trading systems data in another columns.
+            Trading systems data are aligned by the time slots in the first column.
+            </summary>
+            <seealso cref="!:C2ExplorerServiceStack.Logic.Interfaces.IUserCodeResult" />
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.ITimeSheet.Commissions">
+            <summary>
+            Used commissions object.
+            </summary>
+            <value>
+            The commissions object created using the "planId" parameter in factory.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.ITimeSheet.DataFrame">
+            <summary>
+            Result. A data frame which includes data.
+            </summary>
+            <value>
+            The data frame.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.ITimeSheet.EquityType">
+            <summary>
+            Gets or sets the type of the equity.
+            </summary>
+            <value>
+            The type of the equity.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.ITimeSheet.TimeInterval">
+            <summary>
+            Aggregation time interval.
+            </summary>
+            <value>
+            The time interval.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.ITimeSheet.SystemsIds">
+            <summary>
+            A list of systems which should be included in the TimeSheet.
+            </summary>
+            <value>
+            The systems ids.
+            </value>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.ITimeSheet.EquitiesSheet">
+            <summary>
+            This function runs the TimeSheet.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.ITimeSheet.EquitiesSheet(System.Boolean)">
+            <summary>
+            This function runs the TimeSheet. If fillLeadingMissing = false, it does not fill leading missing values by zero. 
+            Leading missing values can be identified later and those rows omitted. 
+            It enables to create a frame which includes just the time slots common to all trading systems.
+            </summary>
+            <remarks>It is supposed that all systems in C2Explorer are live. 
+            It means the ending TimeSheet data should not contain missing values.</remarks>
+            <param name="fillLeadingMissing">if set to <c>true</c> [fill leading missing].</param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.ITimeSheet.GetEquitiesSheet">
+            <summary>
+            Returns data for TABLE.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.ITimeSheet.GetColumn(System.Int64,C2ExplorerServiceStack.Logic.Interfaces.EquityType)">
+            <summary>
+            Returns a column from the TimeSheet.
+            </summary>
+            <param name="systemId">The system identifier.</param>
+            <param name="equityType">Type of the column data.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.ITimeSheet.GetColumn(System.String,C2ExplorerServiceStack.Logic.Interfaces.EquityType)">
+            <summary>
+            Returns a column from the TimeSheet.
+            </summary>
+            <param name="symbol">The symbol (stocks, forex,...).</param>
+            <param name="equityType">Type of the column data.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.ITimeSheet.GetColumnAsDouble(System.Int64,C2ExplorerServiceStack.Logic.Interfaces.EquityType)">
+            <summary>
+            Returns a column from the TimeSheet.
+            </summary>
+            <remarks>
+            Usable for further arithmetic operations. (Decimal columns are not easy.)
+            </remarks>
+            <param name="systemId">The system identifier.</param>
+            <param name="equityType">Type of the column data.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.ITimeSheet.GetColumnAsDouble(System.String,C2ExplorerServiceStack.Logic.Interfaces.EquityType)">
+            <summary>
+            Returns a column from the TimeSheet.
+            </summary>
+            <remarks>
+            Usable for further arithmetic operations. (Decimal columns are not easy.)
+            </remarks>
+            <param name="symbol">The symbol (stock, forex,...).</param>
+            <param name="equityType">Type of the column data.</param>
+            <returns></returns>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.ITimeSheetTests">
+            <summary>
+            private
+            </summary>
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.ITimeSheetInternal">
+            <summary>
+            private
+            Used for Correlation.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.ITimeSheetInternal.EquitiesSheet(System.Boolean,System.Int32)">
+            <summary>
+            Equitieses the sheet for internal usage.
+            </summary>
+            <param name="fillLeadingMissing"></param>
+            <param name="firstDayShift"></param>
+            <returns></returns>
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner">
+            <summary>
+            Query runner environment. Defines methods and properties available for queries.
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.InitDb">
+            <summary>
+            Initializes a database.
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.CloseDb">
+            <summary>
+            Closes a dtabase
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.C2EQUITY">
+            <summary>
+            Collective2 raw equity data view. 
+            </summary>
+            <remarks>
+            Raw equity data are calculated from trades results. Subtract commissions fees and subscription fees to obtain net equity.
+            </remarks>
+            <example>
+            <code language="cs" title="Equity">
+            // In theory, this returns all C2 systems equities:
+            // TABLE = C2EQUITY;
+            // In reality, it ends with "a timeout error" because a data are simply too large.
+            // Select an account equity for the system 75976336:
+            
+            TABLE = from systeq in C2EQUITY where systeq.SystemId == 75976336 select systeq;
+            </code>
+            </example>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.C2SIGNALS">
+            <summary>
+            Collective2 signals data view.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.C2STATS">
+            <summary>
+            Collective2 statistics data view.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.C2SYSTEMS">
+            <summary>
+            Collective2 trading systems data view.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.C2TRADES">
+            <summary>
+            Collective2 trades data view.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.H1">
+            <summary>
+            H1 HTML element text.
+            </summary>
+            <example><code>H1 = "Hello there!";</code></example>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.H2">
+            <summary>
+            H2 HTML element text.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.H3">
+            <summary>
+            H3 HTML element text.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.H4">
+            <summary>
+            H4 HTML element text.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.H5">
+            <summary>
+            H5 HTML element text.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.H6">
+            <summary>
+            H6 HTML element text.
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.HR">
+            <summary>
+            HR HTML element.
+            </summary>
+            <example>HR();</example>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.HTML">
+            <summary>
+            General HTML element.
+            </summary>
+            <value>
+            A HTML code.
+            </value>
+            <example><code>HTML = "<p>This is a <i>paragraph</i></p>";</code></example>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.TEXT">
+            <summary>
+            A text rendered as an HTML P element.
+            </summary>
+            <example><code>TEXT = "Hello there";</code></example>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.FRAME">
+            <summary>
+            IFrame HTML element.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.PICTURE">
+            <summary>
+            Reserved word for future use.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.CHART">
+            <summary>
+            This property accepts most of charts.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.GRAPH">
+            <summary>
+            Reserved word for future use.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.GROUP">
+            <summary>
+            This property accepts a data from LINQ commands using "group by". (Server side grouping.)
+            Under construction currently.
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.SQL(System.String)">
+            <summary>
+            Reserved for future use.
+            </summary>
+            <param name="sqlCode">The SQL code.</param>
+            <returns>IEnumerable data</returns>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.TABLE">
+            <summary>
+            This property accepts data and renders them as a table (grid).
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.TREE">
+            <summary>
+            Reserved word for future use.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.TSCHART">
+            <summary>
+            Reserved word for time series charts.
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.SetApiKey(System.String)">
+            <exclude/>
+            <summary></summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.C2SYSTEM">
+            <summary>
+            Predefined variable for the object representing Collective2 trading system.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.C2CHART">
+            <summary>
+            This property accepts and renders Collective2 trading system equity chart.
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.ExecuteUserCode">
+            <summary>
+            Executes the user code.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.GetAccountEquity(System.Collections.Generic.IEnumerable{System.Int64})">
+            <summary>
+            This is a helper function. It helps to get an equity data for the list of trading systems.
+            </summary>
+            <param name="SystemIds">A list of trading systems IDs.</param>
+            <returns>A list of accounts equities points.</returns>
+            <remarks>
+            This is a shortcut for this code:
+            <code>var SystemIds = ....;
+            var equities = from eq in C2EQUITY
+            where SystemIds.Contains(eq.SystemId)
+            select new AccountEquityPoint() { DateTime = eq.DateTime, SystemId = eq.SystemId, Value = eq.Value };</code>
+            </remarks>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.GetAccountEquity(System.Int64)">
+            <summary>
+            This is a helper function. It helps to get an equity data of the trading system.
+            </summary>
+            <param name="systemId">A trading system ID.</param>
+            <returns>A list of equity points.</returns>
+            <remarks>
+            This is a shortcut for this code:
+            <code>var equities = from eq in C2EQUITY
+            where eq.SystemId == 123456
+            select new AccountEquityPoint() { DateTime = eq.DateTime, SystemId = eq.SystemId, Value = eq.Value };</code>
+            </remarks>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.GetC2SYSTEM(System.Int64)">
+            <summary>
+            Returns Collective2 trading system object.
+            </summary>
+            <param name="id">Collectiv2 trading system id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.GetEquities(System.Collections.Generic.IEnumerable{System.Int64})">
+            <summary>
+            Returns equities data as a list of IChartTimeSeries objects.
+            </summary>
+            <param name="systemsIds">A list of trading systems ids.</param>
+            <returns>A list of IChartTimeSeries objects</returns>
+            <example>
+            <code>
+            var systemsIds = ..... ;
+            ITimeSeriesChart commonChart = new TimeSeriesChart();
+            commonChart.Name = "Equities";
+            commonChart.Add(GetEquities(systemsIds));
+            TSCHART = commonChart;
+            </code>
+            </example>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.UserCodeResults">
+            <exclude/>
+            <summary>
+            Gets or sets the user code results.
+            </summary>
+            <value>
+            The user code results.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.TIMESERIES">
+            <exclude/>
+            <summary>
+            Gets or sets the time series.
+            </summary>
+            <value>
+            The time series.
+            </value>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.ColumnChart(System.String,System.String,System.String,System.String[],System.Decimal[],System.String,System.Boolean,C2ChartsLibrary.Enums.C2ExplorerThemeName,System.Boolean)">
+            <summary>
+            Creates a column chart.
+            </summary>
+            <param name="titleText">Chart title.</param>
+            <param name="categoriesSeriesName">Name of the categories series.</param>
+            <param name="dataSeriesName">Name of the data series.</param>
+            <param name="categories">Array of categories names.</param>
+            <param name="series">The data series.</param>
+            <param name="subtitleText">The subtitle text.</param>
+            <param name="spline">if set to <c>true</c> a spline curve will be added to the chart.</param>
+            <param name="themeName">Name of the theme.</param>
+            <param name="navigator">if set to <c>true</c> the chart will have a navigator.</param>
+            <returns>A chart object</returns>
+            <example>
+            <code language="C#" title="Column chart" source="C:\Projekty\c2_csharp\C2Explorer\C2ExplorerServiceStack\C2ExplorerServiceStack.Logic\Examples\Examples.cs" region="SystemsPerInstrumentsCollumnChart_example"/>
+            </example>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.C2TIMELINE">
+            <summary>
+            Shows Collective2 trades in the Timeline graph.
+            </summary>
+            <value>
+            Timeline object.
+            </value>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.GetEquitiesSheet(System.Collections.Generic.IEnumerable{System.Int64},C2ExplorerServiceStack.Logic.Interfaces.TimeInterval,C2ExplorerServiceStack.Logic.Interfaces.EquityType,System.String)">
+            <summary>
+            Returns a TimeSheet data in the format for the TABLE variable.
+            </summary>
+            <param name="systemsIds">The systems ids.</param>
+            <param name="timeInterval">The time interval.</param>
+            <param name="equityType">Type of the equity.</param>
+            <param name="commissionPLan">The commission p lan.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.GetEquitiesSheet(System.Int64,C2ExplorerServiceStack.Logic.Interfaces.TimeInterval,C2ExplorerServiceStack.Logic.Interfaces.EquityType,System.String)">
+            <summary>
+            Returns a TimeSheet data in the format for the TABLE variable.
+            </summary>
+            <param name="systemId">The system id.</param>
+            <param name="timeInterval">The time interval.</param>
+            <param name="equityType">Type of the equity.</param>
+            <param name="commissionPLan">The commission plan id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.GetCorrelationTable(System.Collections.Generic.IEnumerable{System.Int64},System.String,C2ExplorerServiceStack.Logic.Interfaces.TimeInterval,System.String,C2ExplorerServiceStack.Logic.Interfaces.EquityType)">
+            <summary>
+            Returns a correlation table for the given list of trading systems.
+            </summary>
+            <param name="systemsIds">A list of systems ids. Use two ids at least.</param>
+            <param name="symbol">A symbol for correlation. Defaults to SP500.</param>
+            <param name="timeInterval">Aggregation time interval.</param>
+            <param name="commissionPLan">Commission plan ID.</param>
+            <param name="equityType">Type of the equity. Should be EquityType.Rets, but we allow other data types for your experiments.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.GetCorrelationTable(System.Int64,System.String,C2ExplorerServiceStack.Logic.Interfaces.TimeInterval,System.String,C2ExplorerServiceStack.Logic.Interfaces.EquityType)">
+            <summary>
+            Returns a correlation table for the trading systems. Useful for its correlation with SP500.
+            </summary>
+            <param name="systemId">A system id.</param>
+            <param name="symbol">A symbol for correlation. Defaults to SP500.</param>
+            <param name="timeInterval">Aggregation time interval.</param>
+            <param name="commissionPLan">Commission plan ID.</param>
+            <param name="equityType">Type of the equity. Should be EquityType.Rets, but we allow other data types for your experiments.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.CommissionsFactory(System.String)">
+            <summary>
+            This function creates a Commissions object.
+            </summary>
+            <param name="planId">The plan identifier.</param>
+            <returns>The Commissions object. <see cref="T:C2ExplorerServiceStack.Logic.Interfaces.ICommissions"/></returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.TimeSheetFactory(System.Int64,C2ExplorerServiceStack.Logic.Interfaces.TimeInterval,C2ExplorerServiceStack.Logic.Interfaces.EquityType,System.String)">
+            <summary>
+            This function creates a TimesSheet object.
+            </summary>
+            <param name="systemId">Systems id.</param>
+            <param name="timeInterval">Desired aggregation time interval.</param>
+            <param name="equityType">Type(s) of the equity to be included.</param>
+            <param name="planId">Commissions plan identifier.</param>
+            <returns>Initialized TimeSheet object.</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IQueryRunner.TimeSheetFactory(System.Collections.Generic.IEnumerable{System.Int64},C2ExplorerServiceStack.Logic.Interfaces.TimeInterval,C2ExplorerServiceStack.Logic.Interfaces.EquityType,System.String)">
+            <summary>
+            This function creates a TimesSheet object.
+            </summary>
+            <param name="systemsIds">List of systems ids.</param>
+            <param name="timeInterval">Desired aggregation time interval.</param>
+            <param name="equityType">Type(s) of the equity to be included.</param>
+            <param name="planId">Commissions plan identifier.</param>
+            <returns>Initialized TimeSheet object.</returns>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.IQuery">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQuery.Id">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQuery.UserId">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IQuery.SourceCode">
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.ISymbolPL">
+            <summary>
+            Sum of profit/loss per symbol.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.ISymbolPL.Symbol">
+            <summary>
+            Gets or sets the symbol.
+            </summary>
+            <value>
+            The symbol.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.ISymbolPL.ProfitLoss">
+            <summary>
+            Gets or sets the profit/loss.
+            </summary>
+            <value>
+            The profit/loss.
+            </value>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.ISymbolTradedVolume">
+            <summary>
+            Traded symbol volume.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.ISymbolTradedVolume.Symbol">
+            <summary>
+            Gets or sets the symbol.
+            </summary>
+            <value>
+            The symbol.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.ISymbolTradedVolume.Volume">
+            <summary>
+            Gets or sets the volume.
+            </summary>
+            <value>
+            The volume.
+            </value>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.ISymbolTradesCount">
+            <summary>
+            Number of trades of the given symbol.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.ISymbolTradesCount.Symbol">
+            <summary>
+            Gets or sets the symbol.
+            </summary>
+            <value>
+            The symbol.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.ISymbolTradesCount.TradesCount">
+            <summary>
+            Gets or sets the trades count.
+            </summary>
+            <value>
+            The trades count.
+            </value>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.C2CompilerException">
+            <summary>
+            C2CompilerException
+            </summary>
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.ScriptRunnerException">
+            <summary>
+            
+            </summary>
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.IAccountEquityPoint">
+            <summary>
+            Account equity point.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IAccountEquityPoint.SystemId">
+            <summary>
+            Trading system ID.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IAccountEquityPoint.DateTime">
+            <summary>
+            When calculated.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IAccountEquityPoint.Value">
+            <summary>
+            Equity value.
+            </summary>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem">
+            <summary>
+            A Collective2 trading system.
+            The purpose of this interface is to help to investigate a concrete trading system. (Not all systems or trades in the Collective2 database, but just one concrete system.)
+            </summary>
+            <preliminary />
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.Id">
+            <summary>
+            Gets the trading system ID.
+            </summary>
+            <value>
+            The identifier.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.Name">
+            <summary>
+            Gets the trading system name.
+            </summary>
+            <value>
+            The name.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.StartingCapital">
+            <summary>
+            Gets the starting capital.
+            </summary>
+            <value>
+            The starting capital.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.Started">
+            <summary>
+            Gets the trading system start date.
+            </summary>
+            <value>
+            The started.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.Added">
+            <summary>
+            When the trading system was added to Collective2.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.MonthlyFee">
+            <summary>
+            Subscription fees.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.TrialDays">
+            <summary>
+            Number of trial days.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.OpenPositionsPL">
+            <summary>
+            Open positions value.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.CurrentCash">
+            <summary>
+            Current cash.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.MarginUsed">
+            <summary>
+            Used margin.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.OpenEquity">
+            <summary>
+            Current equity value.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.ClosedPL">
+            <summary>
+            Currently closed profit.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.NumTrades">
+            <summary>
+            Number of trades.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.TradeFreq">
+            <summary>
+            Trading frequency.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.NumWins">
+            <summary>
+            Number of winning trades.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.NumLoss">
+            <summary>
+            Number of losing trades.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.DollarWin">
+            <summary>
+            Profit of winners.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.DollarLoss">
+            <summary>
+            Loss of losers.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.AvgWin">
+            <summary>
+            Average win.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.AvgLoss">
+            <summary>
+            Average loss.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.Trades">
+            <summary>
+            Gets the list of trades.
+            </summary>
+            <value>
+            The list of trades.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.PartialTrades">
+            <summary>
+            Gets the list of partial trades.
+            </summary>
+            <value>
+            The partial trades list.
+            </value>
+            <exclude></exclude>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.Equity">
+            <summary>
+            Gets the equity time series.
+            </summary>
+            <value>
+            The equity.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.Cash">
+            <summary>
+            Gets the cash time series - NOT YET IMPLEMENTED.
+            </summary>
+            <value>
+            The cash.
+            </value>
+            <preliminary/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.DrawDown">
+            <summary>
+            Gets the DrawDown time series.
+            </summary>
+            <value>
+            The draw down.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.Signals">
+            <summary>
+            Gets trading signals.
+            </summary>
+            <value>
+            A collection of trading signals.
+            </value>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.SystemChart(C2ChartsLibrary.Interfaces.EquityChartType,C2ChartsLibrary.Enums.C2ExplorerThemeName,System.String)">
+            <summary>
+            Creates a trading system chart.
+            </summary>
+            <param name="equityChartType">Type of the equity chart.</param>
+            <returns>A chart object.</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.TradesHistogramData(System.Int16)">
+            <summary>
+            Constructs a histogram of trades results (in dollars) with a specific number of equally sized buckets. 
+            The upper and lower bound of the histogram will be set to the smallest and largest data point. 
+            </summary>
+            <param name="binsCount">The number of buckets to use.</param>
+            <returns>A list of ITradesHistogramBucket.</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.TradesHistogram(System.Int16,System.Boolean,C2ChartsLibrary.Enums.C2ExplorerThemeName)">
+            <summary>
+            Returns a histogram chart (in dollars).
+            </summary>
+            <param name="binsCount">The number of buckets to use.</param>
+            <returns>A chart object.</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.TradesHistogramPercentData(System.Int16)">
+            <summary>
+            NOT YET IMPLEMENTED. 
+            Constructs a histogram of trades results (in percents) with a specific number of equally sized buckets. 
+            </summary>
+            <param name="binsCount">The number of buckets to use.</param>
+            <returns>A list of ITradesHistogramBucket.</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.TradesHistogramPercent(System.Int16)">
+            <summary>
+            NOT YET IMPLEMENTED. 
+            Returns a histogram chart (in percents).
+            </summary>
+            <param name="binsCount">The number of buckets to use.</param>
+            <returns>A chart object.</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.SymbolsProfitsData">
+            <summary>
+            Returns sums of profits and loss of trades summarized by symbols.
+            </summary>
+            <returns>A list of SymbolPL objects.</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.SymbolsProfits(System.Boolean)">
+            <summary>
+            Returns a chart of profits by symbols.
+            </summary>
+            <param name="navigator">Should be a "navigator" visible in the chart?</param>
+            <returns>A chart object.</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.SymbolsTradesData">
+            <summary>
+            Returns counts of trades by symbols.
+            </summary>
+            <returns>A list of SymbolTradesCount objects.</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.SymbolsTrades(System.Boolean)">
+            <summary>
+            Returns a chart of counts of trades by symbols.
+            </summary>
+            <param name="navigator">Should be a "navigator" visible in the chart?</param>
+            <returns>A chart object.</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.TradedInstruments">
+            <summary>
+            Returns a pie chart showing traded instruments types ratios.
+            </summary>
+            <returns>A chart object.</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.SymbolsTradesVolumesData">
+            <summary>
+            Returns volumes of traded symbols.
+            </summary>
+            <returns>A list of SymbolTradedVolumes objects.</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.SymbolsTradesVolumes(System.Boolean)">
+            <summary>
+            Returns a chart of volumes of traded symbols.
+            </summary>
+            <param name="navigator">Should be a "navigator" visible in the chart?</param>
+            <returns>A chart object.</returns>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.TradesTimeLine(C2ChartsLibrary.Interfaces.TimeLineGroups,C2ChartsLibrary.Interfaces.TimeLineTradesType,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Double,System.Boolean)">
+            <summary>
+            Trades Timeline.
+            </summary>
+            <remarks>
+            A method used for outliers identification is described here: <a href="http://en.wikipedia.org/wiki/Interquartile_range">http://en.wikipedia.org/wiki/Interquartile_range</a>.
+            </remarks>
+            <param name="groups">The type of groups in the timeline. A default value is TimeLineGroups.Outliers: trades are separated to bands "Big winners", "Winners", "Losers", and "Big losers". 
+            See examples in the section <conceptualLink target="01f08fee-f64d-4694-9cb4-a1bccfb24bd7#timeline_stratification_section"/>.
+            </param>
+            <param name="tradesType">Type of the trades.</param>
+            <param name="dateTimeStart">Optional starting date. Timeline includes trades started in the given Start - End range and trades opened in this range.</param>
+            <param name="dateTimeEnd">Optional ending date. Timeline includes trades started in the given Start - End range and trades opened in this range.</param>
+            <param name="separateLongShortStats">If set to <c>true</c>, outliers are identified separately for LONG and SHORT trades.</param>
+            <param name="k">The interquartile outliers range parameter. See remarks.</param>
+            <param name="useOverflow">
+            If set to <c>true</c> trades descriptions are visible even if trades lines are very short in the chart.
+            See examples in the section <conceptualLink target="01f08fee-f64d-4694-9cb4-a1bccfb24bd7#timeline_overflow_section"/>.
+            </param>
+            <returns>Time line object</returns>
+            <seealso><a href="http://en.wikipedia.org/wiki/Outlier">http://en.wikipedia.org/wiki/Outlier</a> </seealso>
+            <seealso><conceptualLink target="01f08fee-f64d-4694-9cb4-a1bccfb24bd7"/></seealso>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IC2TradingSystem.PartialTradesTimeLine(C2ChartsLibrary.Interfaces.TimeLineTradesType,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Double,System.Boolean)">
+            <exclude/>
+            <summary>
+            Partial trades Timeline.
+            </summary>
+            <returns>Time line object</returns>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.ICompiler">
+            <exclude/>
+            <summary>
+            C# compiler.
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.ICompiler.Compile(C2ExplorerServiceStack.ServiceModel.RunQuery,System.Boolean)">
+            <exclude/>
+            <summary>
+            Compiles given source code and returns errors if any.
+            </summary>
+            <param name="query">The query.</param>
+            <param name="saveQuery">if set to <c>true</c> [save query].</param>
+            <returns></returns>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.FCompiler">
+            <summary>
+            C# compiler.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.FCompiler.Create">
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.IHtmlFrame">
+            <summary>
+            HTML iframe element.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IHtmlFrame.Src">
+            <summary>
+            Specifies the address of the document to embed in the iframe.
+            </summary>
+            <value>
+            The source URL.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IHtmlFrame.SrcDoc">
+            <summary>
+            Specifies the HTML content of the page to show in the iframe.
+            </summary>
+            <value>
+            The source document.
+            </value>
+            <remarks>Currently not implemented.</remarks>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IHtmlFrame.Width">
+            <summary>
+            Specifies the width of the iframe.
+            </summary>
+            <value>
+            The Width.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IHtmlFrame.Height">
+            <summary>
+            Specifies the height of the iframe.
+            </summary>
+            <value>
+            The Height.
+            </value>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.aggregationTypes">
+            <exclude/>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Interfaces.aggregationTypes.sum">
+            <exclude/>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Interfaces.aggregationTypes.count">
+            <exclude/>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Interfaces.aggregationTypes.avg">
+            <exclude/>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Interfaces.aggregationTypes.min">
+            <exclude/>
+        </member>
+        <member name="F:C2ExplorerServiceStack.Logic.Interfaces.aggregationTypes.max">
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.IGridFilterOptions">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IGridFilterOptions.condition">
+            condition defines how rows are chosen as matching the filter term.
+            This can be set to one of the constants in uiGridConstants.filter,
+            or you can supply a custom filter function that gets passed the
+            following arguments: [searchTerm, cellValue, row, column].
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:C2ExplorerServiceStack.Logic.Interfaces.IGridFilterOptions.placeholder" -->
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.IGridColumnDef">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IGridColumnDef.aggregationType">
+             The aggregation that you'd like to show in the columnFooter for this column.
+             Valid values are in uiGridConstants, and currently include:
+             uiGridConstants.aggregationTypes.count, uiGridConstants.aggregationTypes.sum,
+             uiGridConstants.aggregationTypes.avg, uiGridConstants.aggregationTypes.min,
+             uiGridConstants.aggregationTypes.max.
+            
+             You can also provide a function as the aggregation type,
+             in this case your function needs to accept the full set of visible rows,
+             and return a value that should be shown
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IGridColumnDef.cellFilter">
+            cellFilter is a filter to apply to the content of each cell 
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IGridColumnDef.cellTemplate">
+            a custom template for each cell in this column.
+            The default is ui-grid/uiGridCell.
+            If you are using the cellNav feature,
+            this template must contain a div that can receive focus.
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IGridColumnDef.enableGrouping">
+            Enable grouping on this column.  Defaults to true. 
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IGridColumnDef.groupPriority">
+            <summary>
+            Convert to grouping: {groupPriority: number} in javascript. 
+            Priority 0 here means no grouping. 
+            Priority 1 here become 0 in javascript.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IGridColumnDef.field">
+            field must be provided if you wish to bind to a property in the data source.
+            Should be an angular expression that evaluates against grid.options.data array element
+            Can be a complex expression: employee.address.city, or can be a function: employee.getFullAddress().
+            See the angular docs on binding expressions.
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IGridColumnDef.filter">
+            Specify a single filter field on this column.
+            A filter consists of a condition, a term, and a placeholder:
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IGridColumnDef.filters">
+            Specify multiple filter fields 
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IGridColumnDef.name">
+            (mandatory) each column should have a name,
+            although for backward compatibility with 2.x name can be omitted if field is present
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IGridColumnDef.type">
+            the type of the column, used in sorting. If not provided then the grid will guess the type.
+            Add this only if the grid guessing is not to your satisfaction.
+            Note that if you choose date, your dates should be in a javascript date type
+            One of:
+            'string', 'boolean', 'number', 'date', 'object', 'numberStr'
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.IGridOptions">
+            <summary>
+            private
+            </summary>
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IGridOptions.columnDefs">
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.IGroup">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.IGroup.Data">
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.IGroupColumnDef">
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.ISaveButton">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.ISaveButton.UserId">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.ISaveButton.QueryId">
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.IScriptRunner">
+            <summary>
+            Runs the query.
+            </summary>
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.IScriptRunner.RunQuery(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            Runs the query.
+            </summary>
+            <param name="UserId">The user identifier.</param>
+            <param name="QueryId">The query identifier.</param>
+            <param name="SourceCode">The source code.</param>
+            <returns></returns>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.FScriptRunner">
+            <summary>
+            
+            </summary>
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.Interfaces.FScriptRunner.Create">
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.ISignal">
+            <summary>
+            Internal class for intermediate results. 
+            </summary>
+            <see cref="!:C2ExplorerServiceStack.Repository. C2ExplorerDB.c2ex_closedsignals"/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.ISignal2">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.ISignal2.AvgEntry">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.ISignal2.CumulativePosition">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.ISignal2.Signal">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.ISignal2.OID">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.ISignal2.ExpiredWhen">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.ISignal2.KilledWhen">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.ISignal2.TradedWhen">
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.ITree">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.ITree.Data">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.ITree.columnDefs">
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Interfaces.ITreeColumnDef">
+            <summary>
+            private
+            </summary>
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Interfaces.ITreeColumnDef.aggregationType">
+             The aggregation that you'd like to show in the columnFooter for this column.
+             Valid values are in uiGridConstants, and currently include:
+             uiGridConstants.aggregationTypes.count, uiGridConstants.aggregationTypes.sum,
+             uiGridConstants.aggregationTypes.avg, uiGridConstants.aggregationTypes.min,
+             uiGridConstants.aggregationTypes.max.
+            
+             You can also provide a function as the aggregation type,
+             in this case your function needs to accept the full set of visible rows,
+             and return a value that should be shown
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.JsonConverters.GridCoverter">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.JsonConverters.GridCoverter.CanConvert(System.Type)">
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.JsonConverters.GridCoverter.tmpGridOptions">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.JsonConverters.GridCoverter.tmpGridOptions.columnDefs">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.JsonConverters.GridCoverter.tmpGridOptions.#ctor">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.JsonConverters.GridCoverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.JsonConverters.GridCoverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)">
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.JsonConverters.GroupConverter">
+            <exclude/>
+            <summary>
+            GroupConverter
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.JsonConverters.GroupConverter.CanConvert(System.Type)">
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.JsonConverters.GroupConverter.tmpGroupOptions">
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.JsonConverters.GroupConverter.tmpGroupOptions.columnDefs">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.JsonConverters.GroupConverter.tmpGroupOptions.#ctor">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.JsonConverters.GroupConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.JsonConverters.GroupConverter.ShouldBeAbleToConvertAnAnonymousObjectToAnExpandoObject(System.Object)">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.JsonConverters.GroupConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.JsonConverters.GroupConverter.columnDefinitionsForGroup(System.Reflection.PropertyInfo[])">
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.JsonConverters.LowercaseContractResolver">
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.JsonConverters.LowerCaseConverter">
+            <summary>
+            TimeSeriesPointConverter
+            </summary>
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.JsonConverters.TimeSeriesPointConverter">
+            <summary>
+            TimeSeriesPointConverter
+            </summary>
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.JsonConverters.DeedleFrameConverter">
+            <summary>
+            private
+            </summary>
+            <seealso cref="T:Newtonsoft.Json.JsonConverter" />
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.JsonConverters.DeedleFrameConverter.tmpGridOptions">
+            <summary>
+            private
+            </summary>
+            <seealso cref="T:Newtonsoft.Json.JsonConverter" />
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.JsonConverters.DeedleFrameConverter.tmpGridOptions.columnDefs">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.JsonConverters.DeedleFrameConverter.tmpGridOptions.#ctor">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.JsonConverters.DeedleFrameConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)">
+            <summary>
+            private
+            </summary>
+            <seealso cref="T:Newtonsoft.Json.JsonConverter" />
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.JsonConverters.TimeSheetConverter">
+            <summary>
+            private
+            </summary>
+            <seealso cref="T:Newtonsoft.Json.JsonConverter" />
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.JsonConverters.TimeSheetConverter.tmpGridOptions">
+            <summary>
+            private
+            </summary>
+            <seealso cref="T:Newtonsoft.Json.JsonConverter" />
+            <exclude/>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.JsonConverters.TimeSheetConverter.tmpGridOptions.columnDefs">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.JsonConverters.TimeSheetConverter.tmpGridOptions.#ctor">
+            <exclude/>
+        </member>
+        <member name="M:C2ExplorerServiceStack.Logic.JsonConverters.TimeSheetConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)">
+            <summary>
+            private
+            </summary>
+            <seealso cref="T:Newtonsoft.Json.JsonConverter" />
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.JsonConverters.TreeConverter">
+            <summary>
+            TreeConverter
+            </summary>
+            <exclude/>
+        </member>
+        <member name="T:C2ExplorerServiceStack.Logic.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.Logic.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:C2ExplorerWebService.JsonConverters.TradesConverter">
+            <summary>
+            TradesConverter
+            </summary>
+            <exclude/>
+        </member>
+    </members>
+</doc>

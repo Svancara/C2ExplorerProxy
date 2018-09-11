@@ -1,0 +1,838 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>C2ChartsLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:C2ChartsLibrary.Implementation.BasicXYChartParent">
+            <summary>
+            Numerical data on X and Y axes. 
+            Data: [ [x1,y1], [x2,y2], .... [xN,yN] ]
+            Then - I believe - it can be line chart, column, chart, scatter plot, ....
+            Only 1 Y data series in this simple chart
+            </summary>
+            <exclude/>
+        </member>
+        <member name="P:C2ChartsLibrary.Implementation.BasicXYChartParent.Chart">
+            <exclude/>
+        </member>
+        <member name="M:C2ChartsLibrary.Implementation.BasicXYChartParent.plotOptionsColumn(DotNet.Highstock.Options.Series)">
+            <summary>
+            Columns options
+            </summary>
+            <param name="dataSeries"></param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ChartsLibrary.Implementation.BasicXYChartParent.plotOptionsScatter(DotNet.Highstock.Options.Series)">
+            <summary>
+            Scatter options
+            </summary>
+            <param name="dataSeries"></param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ChartsLibrary.Implementation.BasicXYChartParent.#ctor">
+            <exclude/>
+        </member>
+        <member name="M:C2ChartsLibrary.Implementation.BasicXYChartParent.BasicXYChartParentFromSeries(DotNet.Highstock.Enums.ChartTypes,System.String,DotNet.Highstock.Options.Series[],System.String,System.String,System.Boolean,System.String)">
+            <exclude/>
+        </member>
+        <member name="M:C2ChartsLibrary.Implementation.BasicXYChartParent.BasicXYChartParentFromXY(DotNet.Highstock.Enums.ChartTypes,System.String,System.String,System.Object[],System.Object[],System.String,System.String,System.Boolean,System.String)">
+            <exclude/>
+        </member>
+        <member name="M:C2ChartsLibrary.Implementation.BasicXYChartParent.BasicXYChartParentFromArray(DotNet.Highstock.Enums.ChartTypes,System.String,System.String,System.Object[0:,0:],System.String,System.String,System.Boolean,System.String)">
+            <exclude/>
+        </member>
+        <member name="M:C2ChartsLibrary.Implementation.BasicXYChartParent.BasicXYChartParentFromXYData(DotNet.Highstock.Enums.ChartTypes,System.String,System.String,System.Collections.Generic.IEnumerable{C2ChartsLibrary.Implementation.XYData},System.String,System.String,System.Boolean,System.String)">
+            <exclude/>
+        </member>
+        <member name="T:C2ChartsLibrary.Implementation.BoxplotChartTheme">
+            <summary>
+            Colective2 theme
+            </summary>
+        </member>
+        <member name="T:C2ChartsLibrary.Implementation.BoxplotChart">
+            <summary>
+            This class creates columns charts.
+            </summary>
+            <see cref="!:http://onlinestatbook.com/2/graphing_distributions/graphing_distributions.pdf"/>
+            <see cref="!:http://stattrek.com/statistics/charts/boxplot.aspx?Tutorial=AP"/>
+        </member>
+        <member name="P:C2ChartsLibrary.Implementation.BoxplotChart.CategoriesSeriesName">
+            <summary>
+            Gets or sets the name of the categories series.
+            </summary>
+            <value>
+            The name of the categories series.
+            </value>
+        </member>
+        <member name="M:C2ChartsLibrary.Implementation.BoxplotChart.Create">
+            <exclude/>
+            <summary>
+            Creates a chart.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:C2ChartsLibrary.Implementation.C2ColumnChart">
+            <summary>
+            Extended ColumnChart class.
+            </summary>
+        </member>
+        <member name="T:C2ChartsLibrary.Implementation.C2EquityHighChart">
+            <exclude/>
+        </member>
+        <member name="M:C2ChartsLibrary.Implementation.C2EquityHighChart.Create(C2ChartsLibrary.Interfaces.EquityChartType,System.String,System.Decimal,DotNet.Highstock.Helpers.Data,DotNet.Highstock.Helpers.Data,DotNet.Highstock.Helpers.Data,DotNet.Highstock.Helpers.Data,System.Collections.Generic.IEnumerable{C2LibraryBase.Interfaces.IEquityOHLC},System.String,C2ChartsLibrary.Enums.C2ExplorerThemeName,C2ChartsLibrary.Interfaces.IChartBenchmark,DotNet.Highstock.Helpers.Data,System.Decimal)">
+            <exclude/>
+        </member>
+        <member name="M:C2ChartsLibrary.Implementation.C2EquityHighChart.createEquitySeries(C2ChartsLibrary.Interfaces.EquityChartType,DotNet.Highstock.Helpers.Data,System.Collections.Generic.IEnumerable{C2LibraryBase.Interfaces.IEquityOHLC},C2ChartsLibrary.Implementation.EquityChartTheme)">
+            <summary>
+            createEquitySeries
+            </summary>
+            <param name="equityChartType"></param>
+            <param name="equity"></param>
+            <param name="dataForOhlcCandleChart"></param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ChartsLibrary.Implementation.C2EquityHighChart.prepareOhlc(System.Collections.Generic.IEnumerable{C2LibraryBase.Interfaces.IEquityOHLC})">
+            <summary>
+            prepareOhlc
+            </summary>
+            <param name="dataForOhlcCandleChart"></param>
+            <returns></returns>
+        </member>
+        <member name="T:C2ChartsLibrary.Implementation.EquityChartTheme">
+            <summary>
+            EquityChartTheme
+            </summary>
+        </member>
+        <member name="T:C2ChartsLibrary.Implementation.EquityChartTheme_DarkUnica">
+            <summary>
+            EquityChartTheme_DarkUnica
+            </summary>
+        </member>
+        <member name="T:C2ChartsLibrary.Implementation.C2EquityChartTheme">
+            <summary>
+            C2EquityChartTheme
+            </summary>
+            <exclude/>
+        </member>
+        <member name="T:C2ChartsLibrary.Implementation.C2HighChart">
+            <exclude/>
+        </member>
+        <member name="P:C2ChartsLibrary.Implementation.C2HighChart.highcharts">
+            <exclude/>
+        </member>
+        <member name="P:C2ChartsLibrary.Implementation.C2HighChart.Height">
+            <exclude/>
+        </member>
+        <member name="P:C2ChartsLibrary.Implementation.C2HighChart.Name">
+            <exclude/>
+            <summary>
+            Chart name
+            </summary>
+        </member>
+        <member name="P:C2ChartsLibrary.Implementation.C2HighChart.Width">
+            <exclude/>
+        </member>
+        <member name="P:C2ChartsLibrary.Implementation.C2HighChart.ResultType">
+            <exclude/>
+        </member>
+        <member name="P:C2ChartsLibrary.Implementation.C2HighChart.Data">
+            <exclude/>
+        </member>
+        <member name="P:C2ChartsLibrary.Implementation.C2HighChart.ThemeName">
+            <exclude/>
+        </member>
+        <member name="M:C2ChartsLibrary.Implementation.C2HighChart.#ctor">
+            <exclude/>
+        </member>
+        <member name="M:C2ChartsLibrary.Implementation.C2HighChart.xyData(System.Object[],System.Object[])">
+            <exclude/>
+        </member>
+        <member name="M:C2ChartsLibrary.Implementation.C2HighChart.xyData(System.Collections.Generic.IEnumerable{C2ChartsLibrary.Implementation.XYData})">
+            <exclude/>
+        </member>
+        <member name="T:C2ChartsLibrary.Implementation.ChartTimeSeries">
+            <inheritdoc cref="!:C2ExplorerServiceStack.Logic.Interfaces.IChartTimeSeries"/>
+        </member>
+        <member name="P:C2ChartsLibrary.Implementation.ChartTimeSeries.SystemId">
+            <inheritdoc/>
+        </member>
+        <member name="P:C2ChartsLibrary.Implementation.ChartTimeSeries.Name">
+            <inheritdoc/>
+        </member>
+        <member name="P:C2ChartsLibrary.Implementation.ChartTimeSeries.Data">
+            <inheritdoc/>
+        </member>
+        <member name="P:C2ChartsLibrary.Implementation.ChartTimeSeries.Color">
+            <inheritdoc/>
+        </member>
+        <member name="P:C2ChartsLibrary.Implementation.ChartTimeSeries.Type">
+            <inheritdoc/>
+        </member>
+        <member name="M:C2ChartsLibrary.Implementation.ChartTimeSeries.#ctor">
+            <summary>
+            Initializes a new instance of the class.
+            </summary>
+        </member>
+        <member name="M:C2ChartsLibrary.Implementation.ChartTimeSeries.ToHighChartSeries">
+            <inheritdoc/>
+        </member>
+        <member name="T:C2ChartsLibrary.Implementation.PieChart">
+            <summary>
+            This class creates a pie chart.
+            </summary>
+        </member>
+        <member name="M:C2ChartsLibrary.Implementation.PieChart.Create">
+            <summary>
+            Creates a chart.
+            </summary>
+            <returns>A chart object</returns>
+        </member>
+        <member name="T:C2ChartsLibrary.Implementation.ColumnChart">
+            <summary>
+            This class creates columns charts.
+            </summary>
+        </member>
+        <member name="P:C2ChartsLibrary.Implementation.ColumnChart.XAxeName">
+            <summary>
+            Gets or sets the name of the categories series.
+            </summary>
+            <value>
+            The name of the categories series.
+            </value>
+        </member>
+        <member name="M:C2ChartsLibrary.Implementation.ColumnChart.Create">
+            <summary>
+            Creates a chart.
+            </summary>
+            <returns>A chart object</returns>
+        </member>
+        <member name="P:C2ChartsLibrary.Implementation.TradeTimeLineRangeItem.LS">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="T:C2ChartsLibrary.Implementation.TradeTimeLineRangeItem"/> is a LONG or SHORT trade.
+            </summary>
+            <value>
+              <c>true</c> if LONG otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:C2ChartsLibrary.Implementation.TradeTimeLineRangeItem.LBI">
+            <summary>
+            Gets or sets the histogram bucket index of the LONG trade result.
+            </summary>
+            <value>
+            The bucket index.
+            </value>
+        </member>
+        <member name="P:C2ChartsLibrary.Implementation.TradeTimeLineRangeItem.SBI">
+            <summary>
+            Gets or sets the histogram bucket index of the SHORT trade result.
+            </summary>
+            <value>
+            The bucket index.
+            </value>
+        </member>
+        <member name="M:C2ChartsLibrary.Implementation.TimeLineFactory.CreateFromTrades(System.Collections.Generic.IEnumerable{C2LibraryBase.Interfaces.ITrade},C2ChartsLibrary.Interfaces.TimeLineTradesType,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Double,System.Boolean,System.Boolean)">
+            <summary>
+            Creates from trades.
+            </summary>
+            <param name="trades">The trades.</param>
+            <param name="tradesType">Type of the trades.</param>
+            <param name="dateTimeStart">The date time start.</param>
+            <param name="dateTimeEnd">The date time end.</param>
+            <param name="separateLongShortStats">if set to <c>true</c> [separate long short stats].</param>
+            <param name="k">The k.</param>
+            <param name="useGroups">if set to <c>true</c> [use groups].</param>
+            <param name="UseOverflow">if set to <c>true</c> [use overflow].</param>
+            <returns></returns>
+        </member>
+        <member name="M:C2ChartsLibrary.Implementation.TimeLineFactory.CreateTimelineSymbols(System.Collections.Generic.IEnumerable{C2LibraryBase.Interfaces.ITrade},C2ChartsLibrary.Interfaces.TimeLineTradesType,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Boolean,System.Double,System.Boolean)">
+            <summary>
+            Creates the timeline symbols.
+            </summary>
+            <param name="trades">The trades.</param>
+            <param name="tradesType">Type of the trades.</param>
+            <param name="dateTimeStart">The date time start.</param>
+            <param name="dateTimeEnd">The date time end.</param>
+            <param name="UseOverflow">if set to <c>true</c> [use overflow].</param>
+            <returns></returns>
+        </member>
+        <member name="T:C2ChartsLibrary.Implementation.ScatterChart">
+            <summary>
+            A scatter chart factory.
+            </summary>
+        </member>
+        <member name="M:C2ChartsLibrary.Implementation.ScatterChart.Create(System.String,DotNet.Highstock.Options.Series[],System.String,System.String,System.Boolean,System.String)">
+            <summary>
+            Creates the specified title text.
+            </summary>
+            <param name="titleText">The title text.</param>
+            <param name="series">The series.</param>
+            <param name="xAxisTitle">The x axis title.</param>
+            <param name="yAxisTitle">The y axis title.</param>
+            <param name="navigator">if set to <c>true</c> a chart navigator will be visible.</param>
+            <param name="subTitleText">The sub title text.</param>
+            <returns>A chart object.</returns>
+        </member>
+        <member name="M:C2ChartsLibrary.Implementation.ScatterChart.Create(System.String,System.String,System.Object[],System.Object[],System.String,System.String,System.Boolean,System.String)">
+            <summary>
+            Creates the specified title text.
+            </summary>
+            <param name="titleText">The title text.</param>
+            <param name="seriesName">Name of the series.</param>
+            <param name="xSeriesData">The x series data.</param>
+            <param name="ySeriesData">The y series data.</param>
+            <param name="xAxisTitle">The x axis title.</param>
+            <param name="yAxisTitle">The y axis title.</param>
+            <param name="navigator">if set to <c>true</c> a chart navigator will be visible.</param>
+            <param name="subTitleText">The sub title text.</param>
+            <returns>A chart object.</returns>
+        </member>
+        <member name="M:C2ChartsLibrary.Implementation.ScatterChart.Create(System.String,System.String,System.Object[0:,0:],System.String,System.String,System.Boolean,System.String)">
+            <summary>
+            Creates the specified title text.
+            </summary>
+            <param name="titleText">The title text.</param>
+            <param name="seriesName">Name of the series.</param>
+            <param name="xyData">The xy data.</param>
+            <param name="xAxisTitle">The x axis title.</param>
+            <param name="yAxisTitle">The y axis title.</param>
+            <param name="navigator">if set to <c>true</c> a chart navigator will be visible.</param>
+            <param name="subTitleText">The sub title text.</param>
+            <returns>A chart object.</returns>
+        </member>
+        <member name="M:C2ChartsLibrary.Implementation.ScatterChart.Create(System.String,System.String,System.Collections.Generic.IEnumerable{C2ChartsLibrary.Implementation.XYData},System.String,System.String,System.Boolean,System.String)">
+            <summary>
+            Creates the specified title text.
+            </summary>
+            <param name="titleText">The title text.</param>
+            <param name="seriesName">Name of the series.</param>
+            <param name="xyData">The xy data.</param>
+            <param name="xAxisTitle">The x axis title.</param>
+            <param name="yAxisTitle">The y axis title.</param>
+            <param name="navigator">if set to <c>true</c> a chart navigator will be visible.</param>
+            <param name="subTitleText">The sub title text.</param>
+            <returns>A chart object.</returns>
+        </member>
+        <member name="T:C2ChartsLibrary.Implementation.ColumnChartTheme">
+            <summary>
+            Colective2 theme
+            </summary>
+        </member>
+        <member name="P:C2ChartsLibrary.Implementation.TimeSeriesChart.Name">
+            <summary>
+            Chart name
+            </summary>
+        </member>
+        <member name="P:C2ChartsLibrary.Implementation.TimeSeriesChart.ThemeName">
+            <exclude/>
+        </member>
+        <member name="M:C2ChartsLibrary.Implementation.TimeSeriesChart.ToJson">
+            <summary>
+            ToJson
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:C2ChartsLibrary.Implementation.XYData">
+            <summary>
+            Use this class for charts using data points expressed as [X,Y] values.
+            </summary>
+            <example></example>
+        </member>
+        <member name="P:C2ChartsLibrary.Implementation.XYData.X">
+            <summary>
+            Gets or sets the X axes value.
+            </summary>
+            <value>
+            The X value.
+            </value>
+        </member>
+        <member name="P:C2ChartsLibrary.Implementation.XYData.Y">
+            <summary>
+            Gets or sets the Y axes value.
+            </summary>
+            <value>
+            The Y value.
+            </value>
+        </member>
+        <member name="P:C2ChartsLibrary.Interfaces.IChartBenchmark.Series">
+            <summary>
+            Closing daily data series.
+            </summary>
+            <value>
+            The series.
+            </value>
+        </member>
+        <member name="T:C2ChartsLibrary.Interfaces.IChartTimeSeries">
+            <summary>
+            Time series for time series charts.
+            </summary>
+        </member>
+        <member name="P:C2ChartsLibrary.Interfaces.IChartTimeSeries.SystemId">
+            <summary>
+            Trading system ID.
+            </summary>
+            <value>
+            Trading system ID.
+            </value>
+        </member>
+        <member name="P:C2ChartsLibrary.Interfaces.IChartTimeSeries.Color">
+            <summary>
+            Gets or sets the line color.
+            </summary>
+            <value>
+            The color.
+            </value>
+        </member>
+        <member name="P:C2ChartsLibrary.Interfaces.IChartTimeSeries.Type">
+            <summary>
+            Gets or sets this time series chart type.
+            </summary>
+            <value>
+            The time series chart type.
+            </value>
+        </member>
+        <member name="P:C2ChartsLibrary.Interfaces.IChartTimeSeries.Name">
+            <summary>
+            Gets or sets the name of this time series.
+            </summary>
+            <value>
+            The name.
+            </value>
+        </member>
+        <member name="P:C2ChartsLibrary.Interfaces.IChartTimeSeries.Data">
+            <summary>
+            Gets or sets the data - time series points.
+            </summary>
+            <value>
+            The data.
+            </value>
+        </member>
+        <member name="M:C2ChartsLibrary.Interfaces.IChartTimeSeries.ToHighChartSeries">
+            <summary>
+            Converts data to the Highchart series object.
+            </summary>
+            <returns>Highchart series object</returns>
+        </member>
+        <member name="T:C2ChartsLibrary.Interfaces.IBoxplotChart">
+            <summary>
+            Boxplot chart object.
+            </summary>
+        </member>
+        <member name="P:C2ChartsLibrary.Interfaces.IBoxplotChart.CategoriesSeriesName">
+            <summary>
+            Gets or sets the name of the categories series.
+            </summary>
+            <value>
+            The name of the categories series.
+            </value>
+        </member>
+        <member name="M:C2ChartsLibrary.Interfaces.IBoxplotChart.Create">
+            <summary>
+            Creates this instance.
+            </summary>
+            <returns>A chart object.</returns>
+            <exclude/>
+        </member>
+        <member name="P:C2ChartsLibrary.Interfaces.IBoxplotChart.DataSeriesName">
+            <summary>
+            Gets or sets the name of the data series.
+            </summary>
+            <value>
+            The name of the data series.
+            </value>
+        </member>
+        <member name="P:C2ChartsLibrary.Interfaces.IBoxplotChart.SubtitleText">
+            <summary>
+            Gets or sets the subtitle text.
+            </summary>
+            <value>
+            The subtitle text.
+            </value>
+        </member>
+        <member name="M:C2ChartsLibrary.Interfaces.IBoxplotChart.Add(System.Object,System.Collections.Generic.IEnumerable{System.Double})">
+            <summary>
+            Adds data to the chart.
+            </summary>
+            <param name="categoryName">Name of the category. (Should be a String but accepts also other objects.)</param>
+            <param name="data">The boxplot data.</param>
+        </member>
+        <member name="T:C2ChartsLibrary.Interfaces.IC2ColumnChart">
+            <summary>
+            IC2ColumnChart has more properties and methods than ancestor. Use it for more advanced charts.
+            </summary>
+            <remarks>We will add more properties and functions later - as needed.</remarks>
+        </member>
+        <member name="T:C2ChartsLibrary.Interfaces.EquityChartType">
+            <summary>
+            A type of the Collective2 trading system chart.
+            </summary>
+        </member>
+        <member name="F:C2ChartsLibrary.Interfaces.EquityChartType.NotDefined">
+            <summary>
+            Type not defined. 
+            The type of chart will be determined automatically:
+            <para>C2Full - for systems younger than 180 days,</para>
+            <para>CandleDaily - for older systems.</para>
+            
+            </summary>
+        </member>
+        <member name="F:C2ChartsLibrary.Interfaces.EquityChartType.C2Full">
+            <summary>
+            All Collective2 data
+            </summary>
+        </member>
+        <member name="F:C2ChartsLibrary.Interfaces.EquityChartType.CandleDaily">
+            <summary>
+            Daily data - a candlestick chart
+            </summary>
+        </member>
+        <member name="F:C2ChartsLibrary.Interfaces.EquityChartType.OHLCDaily">
+            <summary>
+            Daily data - an OHLC chart
+            </summary>
+        </member>
+        <member name="F:C2ChartsLibrary.Interfaces.EquityChartType.CloseDaily">
+            <summary>
+            Daily data - end-of-day values
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:C2ChartsLibrary.Interfaces.EquityChartType.CompareSP500" -->
+        <!-- Badly formed XML comment ignored for member "F:C2ChartsLibrary.Interfaces.EquityChartType.CompareSP500_C2" -->
+        <member name="T:C2ChartsLibrary.Interfaces.IC2EquityChart">
+            <summary>
+            This interface is reserved for future use.
+            Currently, it just inherits properties from IC2ExplorerHighChart.
+            </summary>
+        </member>
+        <member name="T:C2ChartsLibrary.Interfaces.IC2HighChart">
+            <summary>
+            Common properties of all charts.
+            </summary>
+        </member>
+        <member name="P:C2ChartsLibrary.Interfaces.IC2HighChart.Name">
+            <summary>
+            Gets or sets the chart title.
+            </summary>
+            <value>
+            The name.
+            </value>
+        </member>
+        <member name="P:C2ChartsLibrary.Interfaces.IC2HighChart.Height">
+            <summary>
+            Gets or sets the height of the chart.
+            </summary>
+            <value>
+            The height.
+            </value>
+        </member>
+        <member name="P:C2ChartsLibrary.Interfaces.IC2HighChart.Width">
+            <summary>
+            Gets or sets the width of the chart.
+            </summary>
+            <value>
+            The width.
+            </value>
+        </member>
+        <member name="P:C2ChartsLibrary.Interfaces.IC2HighChart.ThemeName">
+            <exclude/>
+            <summary>
+            Gets a theme name.
+            </summary>
+            <value>
+            The theme name.
+            </value>
+        </member>
+        <member name="P:C2ChartsLibrary.Interfaces.IPieChart.SubtitleText">
+            <summary>
+            Gets or sets the subtitle text.
+            </summary>
+            <value>
+            The subtitle text.
+            </value>
+        </member>
+        <member name="M:C2ChartsLibrary.Interfaces.IPieChart.Add(System.Object,System.Decimal)">
+            <summary>
+            Adds data to the chart.
+            </summary>
+            <param name="categoryName">Name of the category.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:C2ChartsLibrary.Interfaces.IPieChart.Add(System.Object,System.Double)">
+            <summary>
+            Adds data to the chart.
+            </summary>
+            <param name="categoryName">Name of the category.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:C2ChartsLibrary.Interfaces.IPieChart.Add(System.Object,System.Int64)">
+            <summary>
+            Adds data to the chart.
+            </summary>
+            <param name="categoryName">Name of the category.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:C2ChartsLibrary.Interfaces.IPieChart.Add(System.Collections.Generic.IEnumerable{System.Object},System.Collections.Generic.IEnumerable{System.Decimal})">
+            <summary>
+            Adds data to the chart.
+            </summary>
+            <param name="categories">The categories.</param>
+            <param name="values">The values.</param>
+        </member>
+        <member name="M:C2ChartsLibrary.Interfaces.IPieChart.Add(System.Collections.Generic.IEnumerable{System.Object},System.Collections.Generic.IEnumerable{System.Double})">
+            <summary>
+            Adds data to the chart.
+            </summary>
+            <param name="categories">The categories.</param>
+            <param name="values">The values.</param>
+        </member>
+        <member name="M:C2ChartsLibrary.Interfaces.IPieChart.Add(System.Collections.Generic.IEnumerable{System.Object},System.Collections.Generic.IEnumerable{System.Int64})">
+            <summary>
+            Adds data to the chart.
+            </summary>
+            <param name="categories">The categories.</param>
+            <param name="values">The values.</param>
+        </member>
+        <member name="P:C2ChartsLibrary.Interfaces.IColumnChart.XAxeName">
+            <summary>
+            Gets or sets the name of the categories series.
+            </summary>
+            <value>
+            The name of the categories series.
+            </value>
+        </member>
+        <member name="P:C2ChartsLibrary.Interfaces.IColumnChart.YAxeName">
+            <summary>
+            Gets or sets the name of the data series.
+            </summary>
+            <value>
+            The name of the data series.
+            </value>
+        </member>
+        <member name="P:C2ChartsLibrary.Interfaces.IColumnChart.Navigator">
+            <summary>
+            Gets or sets a value indicating whether this chart should include a navigator.
+            </summary>
+            <value>
+              <c>true</c> - the navigator is visible.
+            </value>
+        </member>
+        <member name="P:C2ChartsLibrary.Interfaces.IColumnChart.Spline">
+            <summary>
+            Gets or sets a value indicating whether this chart should include a spline curve.
+            </summary>
+            <value>
+              <c>true</c> - the spline curve will be included in the chart.
+            </value>
+        </member>
+        <member name="P:C2ChartsLibrary.Interfaces.IColumnChart.SubtitleText">
+            <summary>
+            Gets or sets the subtitle text.
+            </summary>
+            <value>
+            The subtitle text.
+            </value>
+        </member>
+        <member name="M:C2ChartsLibrary.Interfaces.IColumnChart.Add(System.Object,System.Decimal)">
+            <summary>
+            Adds data to the chart.
+            </summary>
+            <param name="categoryName">Name of the category.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:C2ChartsLibrary.Interfaces.IColumnChart.Add(System.Object,System.Double)">
+            <summary>
+            Adds data to the chart.
+            </summary>
+            <param name="categoryName">Name of the category.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:C2ChartsLibrary.Interfaces.IColumnChart.Add(System.Object,System.Int64)">
+            <summary>
+            Adds data to the chart.
+            </summary>
+            <param name="categoryName">Name of the category.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:C2ChartsLibrary.Interfaces.IColumnChart.Add(System.Collections.Generic.IEnumerable{System.Object},System.Collections.Generic.IEnumerable{System.Decimal})">
+            <summary>
+            Adds data to the chart.
+            </summary>
+            <param name="categories">The categories.</param>
+            <param name="values">The values.</param>
+        </member>
+        <member name="M:C2ChartsLibrary.Interfaces.IColumnChart.Add(System.Collections.Generic.IEnumerable{System.Object},System.Collections.Generic.IEnumerable{System.Double})">
+            <summary>
+            Adds data to the chart.
+            </summary>
+            <param name="categories">The categories.</param>
+            <param name="values">The values.</param>
+        </member>
+        <member name="M:C2ChartsLibrary.Interfaces.IColumnChart.Add(System.Collections.Generic.IEnumerable{System.Object},System.Collections.Generic.IEnumerable{System.Int64})">
+            <summary>
+            Adds data to the chart.
+            </summary>
+            <param name="categories">The categories.</param>
+            <param name="values">The values.</param>
+        </member>
+        <member name="T:C2ChartsLibrary.Interfaces.IScatterChart">
+            <summary>
+            Reserved for future use. For now, it just inherits from IC2ExplorerHighChart.
+            </summary>
+        </member>
+        <member name="T:C2ChartsLibrary.Interfaces.TimeLineTradesType">
+            <summary>
+            Defines a trade types which should be included in the timeline graph.
+            </summary>
+        </member>
+        <member name="T:C2ChartsLibrary.Interfaces.TimeLineGroups">
+            <summary>
+            Timeline group.
+            </summary>
+        </member>
+        <member name="F:C2ChartsLibrary.Interfaces.TimeLineGroups.NoGroups">
+            <summary>
+            Trades are not separated in the timeline.
+            </summary>
+        </member>
+        <member name="F:C2ChartsLibrary.Interfaces.TimeLineGroups.Outliers">
+            <summary>
+            Trades are separated to four groups: "Big winners", "Winners", "Losers", and "Big losers".
+            </summary>
+        </member>
+        <member name="F:C2ChartsLibrary.Interfaces.TimeLineGroups.Symbols">
+            <summary>
+            Each symbol has its own group.
+            </summary>
+        </member>
+        <member name="T:C2ChartsLibrary.Interfaces.ITimeLine">
+            <summary>
+            Shows Collective2 signals and trades in the TimeLine graph.
+            </summary>
+        </member>
+        <member name="P:C2ChartsLibrary.Interfaces.ITimeLine.Options">
+            <exclude/>
+            <summary>
+            Gets or sets the options.
+            </summary>
+            <value>
+            The options.
+            </value>
+        </member>
+        <member name="T:C2ChartsLibrary.Interfaces.ITimeSeriesChart">
+            <summary>
+            Time series chart.
+            </summary>
+        </member>
+        <member name="P:C2ChartsLibrary.Interfaces.ITimeSeriesChart.highcharts">
+            <exclude/>
+            <summary>
+            Gets or sets the Highcharts.
+            </summary>
+            <value>
+            The Highcharts.
+            </value>
+            <remarks>Just for JSON conversion</remarks>
+        </member>
+        <member name="M:C2ChartsLibrary.Interfaces.ITimeSeriesChart.Add(C2ChartsLibrary.Interfaces.IChartTimeSeries)">
+            <summary>
+            Adds one time series to the chart.
+            </summary>
+            <param name="chartTimeSeries">The chart time series.</param>
+        </member>
+        <member name="M:C2ChartsLibrary.Interfaces.ITimeSeriesChart.Add(System.Collections.Generic.IEnumerable{C2ChartsLibrary.Interfaces.IChartTimeSeries})">
+            <summary>
+            Adds a list of time series to the chart.
+            </summary>
+            <param name="chartTimeSeries">The chart time series.</param>
+        </member>
+        <member name="M:C2ChartsLibrary.Interfaces.ITimeSeriesChart.Add(System.Collections.Generic.IEnumerable{C2LibraryBase.Interfaces.ITimeSeriesPoint})">
+            <summary>
+            Adds one time series to the chart.
+            </summary>
+            <param name="timeSeries">The time series.</param>
+        </member>
+        <member name="M:C2ChartsLibrary.Interfaces.ITimeSeriesChart.Add(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{C2LibraryBase.Interfaces.ITimeSeriesPoint}})">
+            <summary>
+            Adds a list of time series to the chart.
+            </summary>
+            <param name="timeSeries">The time series.</param>
+        </member>
+        <member name="M:C2ChartsLibrary.Interfaces.ITimeSeriesChart.Add(Deedle.Series{System.DateTime,System.Decimal},System.String,System.Drawing.Color,DotNet.Highstock.Enums.ChartTypes)">
+            <summary>
+            Adds Deedle time series.
+            </summary>
+            <param name="timeSeries">The time series.</param>
+            <param name="name">The name.</param>
+            <param name="color">The color.</param>
+            <param name="chartType">Type of the chart.</param>
+        </member>
+        <member name="M:C2ChartsLibrary.Interfaces.ITimeSeriesChart.Add(Deedle.Series{System.DateTime,System.Double},System.String,System.Drawing.Color,DotNet.Highstock.Enums.ChartTypes)">
+            <summary>
+            Adds Deedle time series.
+            </summary>
+            <param name="timeSeries">The time series.</param>
+            <param name="name">The name.</param>
+            <param name="color">The color.</param>
+            <param name="chartType">Type of the chart.</param>
+        </member>
+        <member name="M:C2ChartsLibrary.Interfaces.ITimeSeriesChart.Make">
+            <exclude/>
+            <summary>
+            Prepares chart for export to JSON
+            </summary>
+        </member>
+        <member name="T:C2ChartsLibrary.Interfaces.ITradesHistogramBucket">
+            <summary>
+            A Histogram consists of a series of Buckets, each representing a region limited by a lower bound (exclusive) and an upper bound (inclusive).
+            </summary>
+        </member>
+        <member name="P:C2ChartsLibrary.Interfaces.ITradesHistogramBucket.DataCount">
+            <summary>
+            The number of data points in the bucket. 
+            </summary>
+            <value>
+            The data count.
+            </value>
+        </member>
+        <member name="P:C2ChartsLibrary.Interfaces.ITradesHistogramBucket.LowerBound">
+            <summary>
+            Lower Bound of the Bucket.
+            </summary>
+            <value>
+            The lower bound.
+            </value>
+        </member>
+        <member name="P:C2ChartsLibrary.Interfaces.ITradesHistogramBucket.UpperBound">
+            <summary>
+            Upper Bound of the Bucket.
+            </summary>
+            <value>
+            The upper bound.
+            </value>
+        </member>
+        <member name="T:C2ChartsLibrary.JsonConverters.HighChartConverter">
+            <exclude/>
+        </member>
+        <member name="M:C2ChartsLibrary.JsonConverters.HighChartConverter.CanConvert(System.Type)">
+            <exclude/>
+        </member>
+        <member name="M:C2ChartsLibrary.JsonConverters.HighChartConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)">
+            <exclude/>
+        </member>
+        <member name="M:C2ChartsLibrary.JsonConverters.HighChartConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)">
+            <exclude/>
+        </member>
+        <member name="T:C2LibraryBase.Implementation.TradesHistogramBucket">
+            <inheritdoc cref="!:C2ExplorerServiceStack.Logic.Interfaces.ITradesHistogramBucket"/>
+        </member>
+        <member name="P:C2LibraryBase.Implementation.TradesHistogramBucket.LowerBound">
+            <inheritdoc/>
+        </member>
+        <member name="P:C2LibraryBase.Implementation.TradesHistogramBucket.UpperBound">
+            <inheritdoc/>
+        </member>
+        <member name="P:C2LibraryBase.Implementation.TradesHistogramBucket.DataCount">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

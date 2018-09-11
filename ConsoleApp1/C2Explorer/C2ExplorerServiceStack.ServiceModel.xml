@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>C2ExplorerServiceStack.ServiceModel</name>
+    </assembly>
+    <members>
+        <member name="T:C2ExplorerServiceStack.ServiceModel.NewQuery">
+            <summary>
+            Create a new query.
+            </summary>
+        </member>
+        <member name="P:C2ExplorerServiceStack.ServiceModel.NewQuery.UserId">
+            <summary>
+            Gets or sets the user identifier.
+            </summary>
+            <value>
+            The user identifier.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.ServiceModel.NewQuery.QueryName">
+            <summary>
+            Gets or sets the name of the query.
+            </summary>
+            <value>
+            The name of the query.
+            </value>
+        </member>
+        <member name="P:C2ExplorerServiceStack.ServiceModel.NewQuery.Description">
+            <summary>
+            Gets or sets the description.
+            </summary>
+            <value>
+            The description.
+            </value>
+        </member>
+    </members>
+</doc>

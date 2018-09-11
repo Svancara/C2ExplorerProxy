@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>C2ExplorerServiceStack</name>
+    </assembly>
+    <members>
+        <member name="M:C2ExplorerServiceStack.AppHost.#ctor">
+            <summary>
+            Default constructor.
+            Base constructor requires a name and assembly to locate web service classes. 
+            </summary>
+        </member>
+        <member name="M:C2ExplorerServiceStack.AppHost.Configure(Funq.Container)">
+            <summary>
+            Application specific configuration
+            This method should initialize any IoC resources utilized by your web service classes.
+            </summary>
+            <param name="container"></param>
+        </member>
+    </members>
+</doc>
