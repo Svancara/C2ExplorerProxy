@@ -8,7 +8,8 @@ To be able to use this project, you need a static IP address and a login/passwor
 
 Send me your IP address and I will send you your credentials.
 
-This project is NOT officially supported by Collective2.
+
+### This project is NOT officially supported by Collective2.
 
 If you have any question, send it to my e-mail bob@collective2.com.
 
