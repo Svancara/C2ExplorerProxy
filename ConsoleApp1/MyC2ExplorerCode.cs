@@ -30,8 +30,8 @@ namespace ConsoleApp1
 
 			// Systems we want to see in the chart
 			Tuple<long, String, Color>[] systemIds = {
-				Tuple.Create(113004400L, "COREX", Color.Red),
-				Tuple.Create(106901765L, "VIXTrader", Color.LightBlue),
+				Tuple.Create(110751645L, "Stock Growth", Color.Red),
+				Tuple.Create(125206069L, "Marlin", Color.LightBlue),
 				Tuple.Create(106600099L, "VIXTrader Pro", Color.LightGreen)};
 
 			// Set a preliminary Start Date
